@@ -122,7 +122,7 @@ function createSongHTML(song) {
         return "None";
     }
   
-    return song.name.split(0,15)+"...";
+    return song.name;
 }
 
 /**
@@ -149,7 +149,7 @@ function populateSongList() {
       songList.element.removeChild(songList.element.lastElementChild);
     }
   
-    var allSongs = getAvailableSongs({ });
+    const allSongs = getAvailableSongs({ });
     allSongs.sort(SORTMODES[state.sortSongs].cmpFn);
     for (const song of allSongs) {
         const name = song.name ;
@@ -161,7 +161,7 @@ function populateSongList() {
         button.innerText = state.songBlacklist[name] ? "W" : "B";
     
         const label = document.createElement("label");
-        label.innerHTML = `<span style="color: ${state.selectedSong !== null && state.selectedSong.name === name ? "blue" : state.songBlacklist[name] ? "red" : "white"}">${createSongHTML(song)}</span>`;
+        label.innerHTML = `<span style="color: ${state.selectedSong !== null && state.selectedSong.name === name ? "blue" : state.songBlacklist[name] ? "red" : "white"}">${createSongHTML(song).slice(0,15)+"..."}</span>`;
         label.classList.add("defaultText", "songListLabel");
         label.htmlFor = button.id;
     
