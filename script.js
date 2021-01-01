@@ -161,7 +161,10 @@ function populateSongList() {
         button.innerText = state.songBlacklist[name] ? "W" : "B";
     
         const label = document.createElement("label");
-        label.innerHTML = `<span style="color: ${state.selectedSong !== null && state.selectedSong.name === name ? "blue" : state.songBlacklist[name] ? "red" : "white"}">${createSongHTML(song).slice(0,22)+"..."}</span>`;
+        if (createSongHTML(song).length >= 25) {
+            label.innerHTML = `<span style="color: ${state.selectedSong !== null && state.selectedSong.name === name ? "blue" : state.songBlacklist[name] ? "red" : "white"}">${createSongHTML(song)}</span>`;
+        }
+        else label.innerHTML = `<span style="color: ${state.selectedSong !== null && state.selectedSong.name === name ? "blue" : state.songBlacklist[name] ? "red" : "white"}">${createSongHTML(song).slice(0,25)+"..."}</span>`;
         label.classList.add("defaultText", "songListLabel");
         label.htmlFor = button.id;
     
