@@ -91,7 +91,9 @@ const SORTMODES = {
 function getAvailableSongs(blacklist = state.songBlacklist) {
     let songs = [];
     /** @type {String[]} */
-    songs.push(data.songs[0]);
+    for (i = 0; i < data.songs.length; i++) {
+        songs.push(data.songs[i]);
+    }
     return songs.filter(w => !blacklist[w.name]);
 }
 
