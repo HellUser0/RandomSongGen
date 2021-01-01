@@ -165,7 +165,7 @@ function populateSongList() {
             label.innerHTML = `<span style="color: ${state.selectedSong !== null && state.selectedSong.name === name ? "blue" : state.songBlacklist[name] ? "red" : "white"}">${createSongHTML(song)}</span>`;
         }
         else label.innerHTML = `<span style="color: ${state.selectedSong !== null && state.selectedSong.name === name ? "blue" : state.songBlacklist[name] ? "red" : "white"}">${createSongHTML(song).slice(0,25)+"..."}</span>`;
-        label.classList.add("defaultText", "weaponListLabel");
+        label.classList.add("defaultText", "songListLabel");
         label.htmlFor = button.id;
     
         button.addEventListener("click", (ev) => {
