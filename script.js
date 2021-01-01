@@ -157,7 +157,7 @@ function populateSongList() {
     
         const button = document.createElement("button");
         button.id = `blacklistButton_${name}`;
-        button.classList.add("defaultButton", "songListButton", "left");
+        button.classList.add("defaultButton", "weaponListButton", "left");
         button.innerText = state.songBlacklist[name] ? "W" : "B";
     
         const label = document.createElement("label");
@@ -165,7 +165,7 @@ function populateSongList() {
             label.innerHTML = `<span style="color: ${state.selectedSong !== null && state.selectedSong.name === name ? "blue" : state.songBlacklist[name] ? "red" : "white"}">${createSongHTML(song)}</span>`;
         }
         else label.innerHTML = `<span style="color: ${state.selectedSong !== null && state.selectedSong.name === name ? "blue" : state.songBlacklist[name] ? "red" : "white"}">${createSongHTML(song).slice(0,25)+"..."}</span>`;
-        label.classList.add("defaultText", "songListLabel");
+        label.classList.add("defaultText", "weaponListLabel");
         label.htmlFor = button.id;
     
         button.addEventListener("click", (ev) => {
