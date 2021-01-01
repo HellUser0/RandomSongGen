@@ -92,11 +92,6 @@ function getAvailableSongs(blacklist = state.songBlacklist) {
     let songs = [];
     /** @type {String[]} */
     songs.push(...songs[0]);
-    if (state.vipEnabled == false) {
-        for (i = songs.length - 1; i <= songs.length - 21; i--) {
-            songs.pop()
-        }
-    }
     return songs.filter(w => !blacklist[w.name]);
 }
 
@@ -184,7 +179,7 @@ function populateSongList() {
  * Updates all elements on the page with the right information
  */
 function updateElements() {
-    selectedSong.update({ CURRENT_SONG: createSongHTML(state.selectedSong) });
+    selectedSong.update({ SELECTED_SONG: createSongHTML(state.selectedSong) });
     availSongs.update({ SONG_COUNT: getAvailableSongs(state.songBlacklist).length });
     toggleVIP.update({ ACTION: state.vipEnabled ? "Disable" : "Enable" });
   
@@ -194,7 +189,7 @@ function updateElements() {
 /**
  * Toggles song list's visibility
  */
-  function toggleSongList() {
+function toggleSongList() {
     state.openSongList = !state.openSongList;
     stateChanged();
 }
