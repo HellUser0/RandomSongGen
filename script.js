@@ -157,7 +157,7 @@ function populateSongList() {
     
         const button = document.createElement("button");
         button.id = `blacklistButton_${name}`;
-        button.classList.add("defaultButton", "songListButton", "left");
+        button.classList.add("defaultButton", "weaponListButton", "left");
         button.innerText = state.songBlacklist[name] ? "W" : "B";
     
         const label = document.createElement("label");
@@ -165,7 +165,7 @@ function populateSongList() {
             label.innerHTML = `<span style="color: ${state.selectedSong !== null && state.selectedSong.name === name ? "blue" : state.songBlacklist[name] ? "red" : "white"}">${createSongHTML(song)}</span>`;
         }
         else label.innerHTML = `<span style="color: ${state.selectedSong !== null && state.selectedSong.name === name ? "blue" : state.songBlacklist[name] ? "red" : "white"}">${createSongHTML(song).slice(0,25)+"..."}</span>`;
-        label.classList.add("defaultText", "songListLabel");
+        label.classList.add("defaultText", "weaponListLabel");
         label.htmlFor = button.id;
     
         button.addEventListener("click", (ev) => {
@@ -192,12 +192,12 @@ else label.innerHTML = `<span style="color: ${state.selectedSong !== null && sta
 * Updates all elements on the page with the right information
 */
 function updateElements() {
-selectedSong.update({ CURRENT_SONG: createSongHTML(state.selectedSong) });
-availSongs.update({ SONG_COUNT: getAvailableSongs(state.songBlacklist).length });
-toggleVIP.update({ ACTION: state.vipEnabled ? "Disable" : "Enable" });
-optSongList.update({ ACTION: state.openSongList ? "Close" : "Open" });
+    selectedSong.update({ CURRENT_SONG: createSongHTML(state.selectedSong) });
+    availSongs.update({ SONG_COUNT: getAvailableSongs(state.songBlacklist).length });
+    toggleVIP.update({ ACTION: state.vipEnabled ? "Disable" : "Enable" });
+    optSongList.update({ ACTION: state.openSongList ? "Close" : "Open" });
 
-populateSongList();
+    populateSongList();
 }
 
 /**
@@ -223,17 +223,17 @@ stateChanged();
 }
 
 function stateSave() {
-return JSON.stringify(state);
+    return JSON.stringify(state);
 }
 
 window.addEventListener("load", async () => {
-availSongs.element = document.getElementById("availSongs");
-randomSongPrompt.element = document.getElementById("randomlySelectedSong");
-selectedSong.element = document.getElementById("selectedSong");
-songList.element = document.getElementById("songList");
-optSongList.element = document.getElementById("optSongList");
+    availSongs.element = document.getElementById("availSongs");
+    randomSongPrompt.element = document.getElementById("randomlySelectedSong");
+    selectedSong.element = document.getElementById("selectedSong");
+    songList.element = document.getElementById("songList");
+    optSongList.element = document.getElementById("optSongList");
 
-data = await (await fetch("data.json")).json();
+    data = await (await fetch("data.json")).json();
 
 /*
 document.body.onbeforeunload = (ev) => {
