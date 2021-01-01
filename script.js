@@ -184,6 +184,7 @@ function updateElements() {
     selectedSong.update({ CURRENT_SONG: createSongHTML(state.selectedSong) });
     availSongs.update({ SONG_COUNT: getAvailableSongs(state.songBlacklist).length });
     toggleVIP.update({ ACTION: state.vipEnabled ? "Disable" : "Enable" });
+    optSongList.update({ ACTION: state.openSongList ? "Close" : "Open" });
   
     populateSongList();
 }
