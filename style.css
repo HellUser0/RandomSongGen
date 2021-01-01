@@ -89,7 +89,7 @@ body {
 #weaponList {
   max-height: 0.1%;
   max-width: 50%;
-  overflow-y: scroll;
+  overflow-y: auto;
   overflow-x: hidden;
 }
 
