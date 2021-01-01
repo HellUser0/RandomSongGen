@@ -150,12 +150,9 @@ function populateSongList() {
     }
   
     var allSongs = getAvailableSongs({ });
-    for (i = 0; i < allSongs.length; i++) {
-        allSongs[i] = allSongs[i].slice(0,20) + "..."
-    }
     allSongs.sort(SORTMODES[state.sortSongs].cmpFn);
     for (const song of allSongs) {
-        const name = song.name;
+        const name = song.slice(0,15)+"...";
         const div = document.createElement("div");
     
         const button = document.createElement("button");

@@ -72,21 +72,21 @@ body {
   border-radius: 5px;
 }
 
-.songListButton {
+.weaponListButton {
   display: inline;
   width: fit-content;
 }
 
-.songListLabel {
+.weaponListLabel {
   display: inline;
   margin-left: 5px;
 }
 
-#stage, #availSongs {
+#stage, #availWeapons {
   text-align: center;
 }
 
-#songList {
+#weaponList {
   max-height: 50%;
   max-width: 50%;
   overflow-y: auto;
@@ -97,10 +97,10 @@ body {
   font-size: 15px;
 }
 
-#selectedsong, .songImage {
+#selectedWeapon, .weaponImage {
   display: inline;
 }
 
-.songImage {
+.weaponImage {
   height: 20px;
 }
