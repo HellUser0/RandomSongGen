@@ -122,7 +122,7 @@ function createSongHTML(song) {
         return "None";
     }
   
-    return song.name;
+    return song.name.split(0,15)+"...";
 }
 
 /**
@@ -152,7 +152,7 @@ function populateSongList() {
     var allSongs = getAvailableSongs({ });
     allSongs.sort(SORTMODES[state.sortSongs].cmpFn);
     for (const song of allSongs) {
-        const name = song.slice(0,15)+"...";
+        const name = song.name ;
         const div = document.createElement("div");
     
         const button = document.createElement("button");
