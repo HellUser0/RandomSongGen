@@ -1333,16 +1333,10 @@
             "name": "(Hard) Stressed Out"
         },
         {
-            "name": "Take Me Home"
+            "name": "Country Roads"
         },
         {
-            "name": "(Hard) Take Me Home"
-        },
-        {
-            "name": " Country Roads"
-        },
-        {
-            "name": "(Hard)  Country Roads"
+            "name": "(Hard) Country Roads"
         },
         {
             "name": "Take On Me"
@@ -1423,10 +1417,16 @@
             "name": "(Hard) This is Halloween"
         },
         {
-            "name": "This Will Be The Day"
+            "name": "(Remix) This Will Be The Day"
         },
         {
-            "name": "(Hard) This Will Be The Day"
+            "name": "(Hard) (Remix) This Will Be The Day"
+        },
+        {
+            "name": "(Cover) This Will Be The Day"
+        },
+        {
+            "name": "(Hard) (Cover) This Will Be The Day"
         },
         {
             "name": "Thriller"
@@ -1549,69 +1549,64 @@
             "name": "(Hard) Zero Wing Medley"
         },
         {
-            "name": "Bad Apple"
+            "name": "(VIP) Bad Apple"
         },
         {
-            "name": "(Hard) Bad Apple"
+            "name": "(VIP) (Hard) Bad Apple"
         },
         {
-            "name": "Dark Sheep"
+            "name": "(VIP) Dark Sheep"
         },
         {
-            "name": "(Hard) Dark Sheep"
+            "name": "(VIP) (Hard) Dark Sheep"
         },
         {
-            "name": "LEMON SUMMER"
+            "name": "(VIP) LEMON SUMMER"
         },
         {
-            "name": "(Hard) LEMON SUMMER"
+            "name": "(VIP) (Hard) LEMON SUMMER"
         },
         {
-            "name": "RE:Beats! Robeats Mashup Marathon"
+            "name": "(VIP) RE:Beats! Robeats Mashup Marathon"
         },
         {
-            "name": "(Hard) RE:Beats! Robeats Mashup Marathon"
+            "name": "(VIP) (Hard) RE:Beats! Robeats Mashup Marathon"
         },
         {
-            "name": "Robeats Remix Ten"
+            "name": "(VIP) Robeats Remix Ten"
         },
         {
-            "name": "(Hard) Robeats Remix Ten"
+            "name": "(VIP) (Hard) Robeats Remix Ten"
         },
         {
-            "name": "SolarOrbit -Connected with the Espabrother-"
+            "name": "(VIP) SolarOrbit -Connected with the Espabrother-"
         },
         {
-            "name": "(Hard) SolarOrbit -Connected with the Espabrother-"
+            "name": "(VIP) (Hard) SolarOrbit -Connected with the Espabrother-"
         },
         {
-            "name": "Soulless 5"
+            "name": "(VIP) Soulless 5"
         },
         {
-            "name": "(Hard) Soulless 5"
+            "name": "(VIP) (Hard) Soulless 5"
         },
         {
-            "name": "FREEDOM DiVE (Metal)"
+            "name": "(VIP) FREEDOM DiVE (Metal)"
         },
         {
-            "name": "(Hard) FREEDOM DiVE (Metal)"
+            "name": "(VIP) (Hard) FREEDOM DiVE (Metal)"
         },
         {
-            "name": "This Will Be The Day (Cover)"
+            "name": "(VIP) Magnolia"
         },
         {
-            "name": "(Hard) This Will Be The Day (Cover)"
+            "name": "(VIP) (Hard) Magnolia"
         },
         {
-            "name": "Magnolia (VIP)"
+            "name": "(VIP) Space Battle"
         },
         {
-            "name": "(Hard) Magnolia (VIP)"
-        },
-        {
-            "name": "Space Battle (VIP)"
-        },
-        {
-            "name": "(Hard) Space Battle (VIP)"
-        },
-        ]}
+            "name": "(VIP) (Hard) Space Battle"
+        }
+    ]
+}
