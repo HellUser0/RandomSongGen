@@ -1,6 +1,6 @@
 
 * {
-  overflow: auto;
+  overflow: hidden;
   font-family: "Consolas", Arial, Helvetica, sans-serif;
 }
 
@@ -39,7 +39,7 @@ body {
 .defaultText, .defaultButton {
   color: white;
   text-align: center;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .defaultButton {
