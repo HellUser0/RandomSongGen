@@ -10,10 +10,9 @@
  */
 function stateReset(apply = true) {
     const rstState = {
-        vipEnabled: false,
         songBlacklist: {},
         selectedSong: null,
-        sortSongs: 'availabilityAndName',
+        sortSongs: 'availability',
         openSongList: false
     };
     if (apply) {
@@ -29,7 +28,6 @@ function stateChanged() {
 }
 
 const availSongs = new DynamicElement()
-const toggleVIP = new DynamicElement()
 const optSongList = new DynamicElement()
 
 const randomSongPrompt = Object.assign(
@@ -87,12 +85,12 @@ const SORTMODES = {
  * @param {Object<String, Boolean>} [blacklist] - The songs' blacklist
  * @returns {SongData[]} An array that contains all available songs
  */
-
+//works
 function getAvailableSongs(blacklist = state.songBlacklist) {
     let songs = [];
     /** @type {String[]} */
-    for (i = 0; i < data.songs.length; i++) {
-        songs.push(data.songs[i]);
+    for (i = 0; i < data.songs.length; i++){
+        songs[i] = data.songs[i]
     }
     return songs.filter(w => !blacklist[w.name]);
 }
@@ -102,14 +100,10 @@ function getAvailableSongs(blacklist = state.songBlacklist) {
  * @param {Object<String, Boolean>} [blacklist] - The songs' blacklist
  * @returns {SongData} The name of a randomly picked song
  */
+//works
 function pickRandomSong(blacklist = state.songBlacklist) {
     const availSongs = getAvailableSongs(blacklist);
     return availSongs[Math.floor(Math.random() * availSongs.length)];
-}
-
-function VIP() {
-    state.vipEnabled = true
-    stateChanged();
 }
 
 /**
@@ -117,11 +111,11 @@ function VIP() {
  * @param {SongData} song - The song to create the HTML string from
  * @returns {String} The HTML for the specified song
  */
+//works
 function createSongHTML(song) {
     if (song === null || song === undefined) {
         return "None";
     }
-  
     return song.name;
 }
 
@@ -134,7 +128,7 @@ function getRandomSongPressed() {
     const selSong = pickRandomSong();
     randomSongPrompt.current = selSong;
     randomSongPrompt.update({ SELECTED_SONG: createSongHTML(selSong) });
-  }
+}
 
 /**
  * Populates the list of songs and creates all needed elements
@@ -142,11 +136,11 @@ function getRandomSongPressed() {
 function populateSongList() {
     songList.element.classList.toggle("hidden", !state.openSongList);
     if (!state.openSongList) {
-      return;
+        return;
     }
   
     while (songList.element.lastElementChild !== null) {
-      songList.element.removeChild(songList.element.lastElementChild);
+        songList.element.removeChild(songList.element.lastElementChild);
     }
   
     const allSongs = getAvailableSongs({ });
@@ -162,9 +156,11 @@ function populateSongList() {
     
         const label = document.createElement("label");
         if (createSongHTML(song).length <= 25) {
-            label.innerHTML = `<span style="color: ${state.selectedSong !== null && state.selectedSong.name === name ? "blue" : state.songBlacklist[name] ? "red" : "white"}">${createSongHTML(song)}</span>`;
+            label.innerHTML = `<span style="color: ${state.selectedSong !== null && state.selectedSong.name === name ? "blue" : state.songBlacklist[name] ? "red" : "white"}">${createSongHTML(song)}</span>`
         }
-        else label.innerHTML = `<span style="color: ${state.selectedSong !== null && state.selectedSong.name === name ? "blue" : state.songBlacklist[name] ? "red" : "white"}">${createSongHTML(song).slice(0,25)+"..."}</span>`;
+        else {
+            label.innerHTML = `<span style="color: ${state.selectedSong !== null && state.selectedSong.name === name ? "blue" : state.songBlacklist[name] ? "red" : "white"}">${createSongHTML(song).slice(0,25)+"..."}</span>`
+        };
         label.classList.add("defaultText", "weaponListLabel");
         label.htmlFor = button.id;
     
@@ -178,15 +174,8 @@ function populateSongList() {
     
         songList.element.appendChild(div);
     };
-  }
-
-/*
-if (createSongHTML(song).length <= 25) {
-    label.innerHTML = `<span style="color: ${state.selectedSong !== null && state.selectedSong.name === name ? "blue" : state.songBlacklist[name] ? "red" : "white"}">${createSongHTML(song)}</span>`;
 }
-else label.innerHTML = `<span style="color: ${state.selectedSong !== null && state.selectedSong.name === name ? "blue" : state.songBlacklist[name] ? "red" : "white"}">${createSongHTML(song).slice(0,25)+"..."}</span>`;
-});
-*/
+
 
 /**
 * Updates all elements on the page with the right information
@@ -194,7 +183,6 @@ else label.innerHTML = `<span style="color: ${state.selectedSong !== null && sta
 function updateElements() {
     selectedSong.update({ CURRENT_SONG: createSongHTML(state.selectedSong) });
     availSongs.update({ SONG_COUNT: getAvailableSongs(state.songBlacklist).length });
-    toggleVIP.update({ ACTION: state.vipEnabled ? "Disable" : "Enable" });
     optSongList.update({ ACTION: state.openSongList ? "Close" : "Open" });
 
     populateSongList();
@@ -204,8 +192,8 @@ function updateElements() {
 * Toggles song list's visibility
 */
 function toggleSongList() {
-state.openSongList = !state.openSongList;
-stateChanged();
+    state.openSongList = !state.openSongList;
+    stateChanged();
 }
 
 /**
@@ -214,97 +202,34 @@ stateChanged();
 * @param {Boolean} addToBlacklist - Whether or not to add the song to the blacklist
 */
 function confirmRandomSong(accept = true, addToBlacklist = true) {
-randomSongPrompt.parent.classList.add("hidden");
-state.selectedSong = accept ? randomSongPrompt.current : null;
-if (addToBlacklist) {
-state.songBlacklist[randomSongPrompt.current.name] = true;
-}
-stateChanged();
-}
-
-function stateSave() {
-    return JSON.stringify(state);
-}
-
-window.addEventListener("load", async () => {
-    availSongs.element = document.getElementById("availSongs");
-    randomSongPrompt.element = document.getElementById("randomlySelectedSong");
-    selectedSong.element = document.getElementById("selectedSong");
-    songList.element = document.getElementById("songList");
-    optSongList.element = document.getElementById("optSongList");
-
-    data = await (await fetch("data.json")).json();
-
-/*
-document.body.onbeforeunload = (ev) => {
-// Show unsaved state
-if (isDirty) {
-    ev.preventDefault();
-    ev.returnValue = '';
-    return '';
-}
-};
-*/
-
-});
-
-
-/**
- * Updates all elements on the page with the right information
- */
-function updateElements() {
-    selectedSong.update({ CURRENT_SONG: createSongHTML(state.selectedSong) });
-    availSongs.update({ SONG_COUNT: getAvailableSongs(state.songBlacklist).length });
-    toggleVIP.update({ ACTION: state.vipEnabled ? "Disable" : "Enable" });
-    optSongList.update({ ACTION: state.openSongList ? "Close" : "Open" });
-  
-    populateSongList();
-}
-  
-/**
- * Toggles song list's visibility
- */
-function toggleSongList() {
-    state.openSongList = !state.openSongList;
-    stateChanged();
-}
-  
-/**
- * Accepts or rejects the currently random picked song
- * @param {Boolean} accept - Whether or not to accept the song
- * @param {Boolean} addToBlacklist - Whether or not to add the song to the blacklist
- */
-function confirmRandomSong(accept = true, addToBlacklist = true) {
     randomSongPrompt.parent.classList.add("hidden");
     state.selectedSong = accept ? randomSongPrompt.current : null;
     if (addToBlacklist) {
-      state.songBlacklist[randomSongPrompt.current.name] = true;
+        state.songBlacklist[randomSongPrompt.current.name] = true;
     }
     stateChanged();
 }
-  
-function stateSave() {
-    return JSON.stringify(state);
-}
-  
+
 window.addEventListener("load", async () => {
     availSongs.element = document.getElementById("availSongs");
     randomSongPrompt.element = document.getElementById("randomlySelectedSong");
     selectedSong.element = document.getElementById("selectedSong");
     songList.element = document.getElementById("songList");
     optSongList.element = document.getElementById("optSongList");
-  
+
     data = await (await fetch("data.json")).json();
-  
+
     /*
     document.body.onbeforeunload = (ev) => {
-        // Show unsaved state
-        if (isDirty) {
-            ev.preventDefault();
-            ev.returnValue = '';
-            return '';
-        }
+    // Show unsaved state
+    if (isDirty) {
+        ev.preventDefault();
+        ev.returnValue = '';
+        return '';
+    }
     };
     */
-  
+
 });
+
+
