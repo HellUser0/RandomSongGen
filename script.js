@@ -13,7 +13,8 @@ function stateReset(apply = true) {
         songBlacklist: {},
         selectedSong: null,
         sortSongs: 'availability',
-        openSongList: false
+        openSongList: false,
+        toggleDiff: false
     };
     if (apply) {
         state = rstState;
@@ -29,6 +30,7 @@ function stateChanged() {
 
 const availSongs = new DynamicElement()
 const optSongList = new DynamicElement()
+const optDiff = new DynamicElement()
 
 const randomSongPrompt = Object.assign(
     new DynamicElement(null, {}, true),
@@ -151,7 +153,7 @@ function populateSongList() {
     
         const button = document.createElement("button");
         button.id = `blacklistButton_${name}`;
-        button.classList.add("defaultButton", "songListButton", "left");
+        button.classList.add("defaultButton", "weaponListButton", "left");
         button.innerText = state.songBlacklist[name] ? "W" : "B";
     
         const label = document.createElement("label");
@@ -161,7 +163,7 @@ function populateSongList() {
         else {
             label.innerHTML = `<span style="color: ${state.selectedSong !== null && state.selectedSong.name === name ? "blue" : state.songBlacklist[name] ? "red" : "white"};overflow-x:hidden">${createSongHTML(song).slice(0,22)+"..."}</span>`
         };
-        label.classList.add("defaultText", "songListLabel");
+        label.classList.add("defaultText", "weaponListLabel");
         label.htmlFor = button.id;
     
         button.addEventListener("click", (ev) => {
@@ -184,6 +186,7 @@ function updateElements() {
     selectedSong.update({ CURRENT_SONG: createSongHTML(state.selectedSong) });
     availSongs.update({ SONG_COUNT: getAvailableSongs(state.songBlacklist).length });
     optSongList.update({ ACTION: state.openSongList ? "Close" : "Open" });
+    optDiff.update({ ACTION: state.toggleDiff ? "Enabled" : "Disabled" })
 
     populateSongList();
 }
@@ -194,6 +197,22 @@ function updateElements() {
 function toggleSongList() {
     state.openSongList = !state.openSongList;
     stateChanged();
+}
+
+/**
+ * Toggles difficulty 25+ songs
+ */
+async function toggleDifficulty() {
+    state.toggleDiff = !state.toggleDiff
+    if (!state.toggleDiff) {
+        data = await (await fetch("data.json")).json();
+        state.sortSongs = 'availability'
+    }
+    else {
+        data = await (await fetch("hardonlydata.json")).json();
+        state.sortSongs = 'availabilityAndName'
+    }
+    stateChanged()
 }
 
 /**
@@ -216,6 +235,7 @@ window.addEventListener("load", async () => {
     selectedSong.element = document.getElementById("selectedSong");
     songList.element = document.getElementById("songList");
     optSongList.element = document.getElementById("optSongList");
+    optDiff.element = document.getElementById("optDiff")
 
     data = await (await fetch("data.json")).json();
 
