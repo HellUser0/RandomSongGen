@@ -89,6 +89,7 @@ body {
 #songList {
   height: 50%;
   max-height: 50%;
+  width: 50%;
   max-width: 50%;
   overflow-y: auto;
   overflow-x: hidden;
