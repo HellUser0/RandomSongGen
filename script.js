@@ -31,7 +31,6 @@ function toggleSongClear() {
 let state = stateReset(false);
   
 function stateChanged() {
-    saveToLocal();
     updateElements();
 }
 
