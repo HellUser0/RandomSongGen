@@ -220,7 +220,7 @@ function populateSongList() {
 function updateElements() {
     currentStage.update({ CURRENT_STAGE: getStageName(state.currentStage) });
     selectedSong.update({ CURRENT_SONG: createSongHTML(state.selectedSong) });
-    availSongs.update({ SONG_COUNT: getAvailableSongs(state.songBlacklist).length });
+    availSongs.update({ SONG_COUNT: getAvailableSongs(state.currentStage, state.songBlacklist).length });
     optSongList.update({ ACTION: state.openSongList ? "Close" : "Open" });
     optStageClear.update({ ACTION: state.enableStageClearPreviousSongs ? "Disable" : "Enable" });
 
