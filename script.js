@@ -10,27 +10,35 @@
  */
 function stateReset(apply = true) {
     const rstState = {
+        currentStage: 0,
         songBlacklist: {},
         selectedSong: null,
         sortSongs: 'availability',
         openSongList: false,
-        toggleDiff: false
+        enableStageClearPreviousSongs: false
     };
     if (apply) {
         state = rstState;
     }
     return rstState;
 }
+
+function toggleSongClear() {
+    state.enableStageClearPreviousSongs = !state.enableStageClearPreviousSongs;
+    stateChanged();
+}
   
 let state = stateReset(false);
   
 function stateChanged() {
+    saveToLocal();
     updateElements();
 }
 
 const availSongs = new DynamicElement()
 const optSongList = new DynamicElement()
-const optDiff = new DynamicElement()
+const optStageClear = new DynamicElement()
+const currentStage = new DynamicElement()
 
 const randomSongPrompt = Object.assign(
     new DynamicElement(null, {}, true),
@@ -84,28 +92,56 @@ const SORTMODES = {
 
 /**
  * Gets all available songs with VIP or without VIP with the specified blacklist
+ * @param {Number} [stageI] - The stage's index
  * @param {Object<String, Boolean>} [blacklist] - The songs' blacklist
  * @returns {SongData[]} An array that contains all available songs
  */
-//works
-function getAvailableSongs(blacklist = state.songBlacklist) {
+function getAvailableSongs(stageI = 0, blacklist = state.songBlacklist) {
     let songs = [];
     /** @type {String[]} */
-    for (i = 0; i < data.songs.length; i++){
-        songs[i] = data.songs[i]
+    const stages = data.diffs;
+    stageI = Math.min(Math.max(stageI, 0), stages.length);
+    for (let i = 0; i <= stageI; i++) {
+        if (state.enableStageClearPreviousSongs) {
+            songs = [];
+        }
+        songs.push(...stages[i].songs);
     }
     return songs.filter(w => !blacklist[w.name]);
 }
 
 /**
+ * Returns the name of the specified stage
+ * @param {Number} [stageI] - The stage's index
+ * @returns {String} The name of the specified stage
+ */
+function getStageName(stageI = 0) {
+    return data.diffs[Math.min(Math.max(stageI, 0), data.diffs.length - 1)].name;
+}
+
+/**
  * Picks a random song that is available at the specified stage with the specified blacklist
+ * @param {Number} [stageI] - The stage's index
  * @param {Object<String, Boolean>} [blacklist] - The songs' blacklist
  * @returns {SongData} The name of a randomly picked song
  */
-//works
-function pickRandomSong(blacklist = state.songBlacklist) {
-    const availSongs = getAvailableSongs(blacklist);
+function pickRandomSong(stageI = 0, blacklist = state.songBlacklist) {
+    const availSongs = getAvailableSongs(stageI, blacklist);
     return availSongs[Math.floor(Math.random() * availSongs.length)];
+}
+
+/**
+ * Goes to the next stage
+ */
+function toggleDifficulty() {
+    if (state.currentStage < data.diffs.length - 1) {
+        ++state.currentStage;
+        stateChanged();
+    }
+    else {
+        state.currentStage = 0
+        stateChanged()
+    }
 }
 
 /**
@@ -127,7 +163,7 @@ function createSongHTML(song) {
 function getRandomSongPressed() {
     randomSongPrompt.parent.classList.remove("hidden");
     
-    const selSong = pickRandomSong();
+    const selSong = pickRandomSong(state.currentStage);
     randomSongPrompt.current = selSong;
     randomSongPrompt.update({ SELECTED_SONG: createSongHTML(selSong) });
 }
@@ -153,7 +189,7 @@ function populateSongList() {
     
         const button = document.createElement("button");
         button.id = `blacklistButton_${name}`;
-        button.classList.add("defaultButton", "weaponListButton", "left");
+        button.classList.add("defaultButton", "songListButton", "left");
         button.innerText = state.songBlacklist[name] ? "W" : "B";
     
         const label = document.createElement("label");
@@ -163,7 +199,7 @@ function populateSongList() {
         else {
             label.innerHTML = `<span style="color: ${state.selectedSong !== null && state.selectedSong.name === name ? "blue" : state.songBlacklist[name] ? "red" : "white"};overflow-x:hidden">${createSongHTML(song).slice(0,22)+"..."}</span>`
         };
-        label.classList.add("defaultText", "weaponListLabel");
+        label.classList.add("defaultText", "songListLabel");
         label.htmlFor = button.id;
     
         button.addEventListener("click", (ev) => {
@@ -183,10 +219,11 @@ function populateSongList() {
 * Updates all elements on the page with the right information
 */
 function updateElements() {
+    currentStage.update({ CURRENT_STAGE: getStageName(state.currentStage) });
     selectedSong.update({ CURRENT_SONG: createSongHTML(state.selectedSong) });
     availSongs.update({ SONG_COUNT: getAvailableSongs(state.songBlacklist).length });
     optSongList.update({ ACTION: state.openSongList ? "Close" : "Open" });
-    optDiff.update({ ACTION: state.toggleDiff ? "Enabled" : "Disabled" })
+    optStageClear.update({ ACTION: state.enableStageClearPreviousSongs ? "Disable" : "Enable" });
 
     populateSongList();
 }
@@ -197,22 +234,6 @@ function updateElements() {
 function toggleSongList() {
     state.openSongList = !state.openSongList;
     stateChanged();
-}
-
-/**
- * Toggles difficulty 25+ songs
- */
-async function toggleDifficulty() {
-    state.toggleDiff = !state.toggleDiff
-    if (!state.toggleDiff) {
-        data = await (await fetch("data.json")).json();
-        state.sortSongs = 'availability'
-    }
-    else {
-        data = await (await fetch("hardonlydata.json")).json();
-        state.sortSongs = 'availabilityAndName'
-    }
-    stateChanged()
 }
 
 /**
@@ -230,12 +251,13 @@ function confirmRandomSong(accept = true, addToBlacklist = true) {
 }
 
 window.addEventListener("load", async () => {
+    currentStage.element = document.getElementById("currentStage");
     availSongs.element = document.getElementById("availSongs");
     randomSongPrompt.element = document.getElementById("randomlySelectedSong");
     selectedSong.element = document.getElementById("selectedSong");
     songList.element = document.getElementById("songList");
     optSongList.element = document.getElementById("optSongList");
-    optDiff.element = document.getElementById("optDiff")
+    optStageClear.element = document.getElementById("optStageClear");
 
     data = await (await fetch("data.json")).json();
 
@@ -249,7 +271,5 @@ window.addEventListener("load", async () => {
     }
     };
     */
-
+    stateChanged();
 });
-
-
