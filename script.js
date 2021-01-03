@@ -180,7 +180,7 @@ function populateSongList() {
         songList.element.removeChild(songList.element.lastElementChild);
     }
   
-    const allSongs = getAvailableSongs({ });
+    const allSongs = getAvailableSongs(state.currentStage, { });
     allSongs.sort(SORTMODES[state.sortSongs].cmpFn);
     for (const song of allSongs) {
         const name = song.name;
