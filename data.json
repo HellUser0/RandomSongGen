@@ -4,7 +4,7 @@
             "name": "1-10",
             "songs": [
                 {
-                    "name": "(Remix) All Star"
+                    "name": "All Star (Eugeen Remix)"
                 },
                 {
                     "name": "Apologize"
@@ -13,7 +13,7 @@
                     "name": "Carissa"
                 },
                 {
-                    "name": "(Preetaxyz Cover) Gee"
+                    "name": "Gee (Preetaxyz Cover)"
                 },
                 {
                     "name": "Mark Twain"
@@ -31,7 +31,7 @@
                     "name": "EPIC"
                 },
                 {
-                    "name": "(Nylon Pink Rock Cover) Gee"
+                    "name": "Gee (Nylon Pink Rock Cover)"
                 },
                 {
                     "name": "Goodbye To A World"
@@ -97,9 +97,6 @@
                     "name": "Robot Midlife Crisis"
                 },
                 {
-                    "name": "Ride On Shooting Star"
-                },
-                {
                     "name": "Secrets of the Universe"
                 },
                 {
@@ -121,16 +118,13 @@
                     "name": "Days"
                 },
                 {
-                    "name": "Despacito"
-                },
-                {
                     "name": "Endless Tower"
                 },
                 {
                     "name": "From Here"
                 },
                 {
-                    "name": "Hacking to the Gate"
+                    "name": "Hue Shift"
                 },
                 {
                     "name": "Heads Will Roll"
@@ -160,9 +154,6 @@
                     "name": "Santa Tell Me"
                 },
                 {
-                    "name": "Serendipity"
-                },
-                {
                     "name": "Set Me Free"
                 },
                 {
@@ -187,9 +178,6 @@
                     "name": "Holy Night"
                 },
                 {
-                    "name": "Snow halation"
-                },
-                {
                     "name": "Stressed Out"
                 },
                 {
@@ -200,9 +188,6 @@
                 },
                 {
                     "name": "Zero Wing Medley"
-                },
-                {
-                    "name": "A Cruel Angel's Thesis"
                 },
                 {
                     "name": "Brass"
@@ -233,6 +218,9 @@
                 },
                 {
                     "name": "Like You"
+                },
+                {
+                    "name": "No Dice"
                 },
                 {
                     "name": "macaron moon"
@@ -290,6 +278,9 @@
                 },
                 {
                     "name": "Hurts So Good"
+                },
+                {
+                    "name": "Making Dew"
                 },
                 {
                     "name": "ME!ME!ME!"
@@ -460,7 +451,7 @@
                     "name": "-Miami Hotline- Vol.3"
                 },
                 {
-                    "name": "(Cover) All Star"
+                    "name": "All Star"
                 },
                 {
                     "name": "ATHAZA"
@@ -506,6 +497,9 @@
                 },
                 {
                     "name": "Pretender"
+                },
+                {
+                    "name": "Report 4: New World"
                 },
                 {
                     "name": "Rotasu"
@@ -564,7 +558,7 @@
                     "name": "Floral Fury"
                 },
                 {
-                    "name": "(Hard) (Preetaxyz Cover) Gee"
+                    "name": "(Hard) Gee (Preetaxyz Cover)"
                 },
                 {
                     "name": "Gourmandises"
@@ -618,6 +612,9 @@
                     "name": "Disco Descent"
                 },
                 {
+                    "name": "dogjam"
+                },
+                {
                     "name": "Flight of the Bumblebee"
                 },
                 {
@@ -669,9 +666,6 @@
                     "name": "Astronomia"
                 },
                 {
-                    "name": "Bowser's Castle"
-                },
-                {
                     "name": "DDU-DU DDU-DU"
                 },
                 {
@@ -714,9 +708,6 @@
                     "name": "(Hard) Renai Circulation"
                 },
                 {
-                    "name": "(Hard) Ride On Shooting Star"
-                },
-                {
                     "name": "(Hard) Robot Midlife Crisis"
                 },
                 {
@@ -738,7 +729,7 @@
                     "name": "(Hard) Yeah"
                 },
                 {
-                    "name": "(Hard) (Remix) All Star"
+                    "name": "(Hard) All Star"
                 },
                 {
                     "name": "(Hard) Are We Still Young"
@@ -759,13 +750,13 @@
                     "name": "croiX"
                 },
                 {
-                    "name": "(Hard) Despacito"
-                },
-                {
                     "name": "(Hard) Elevator"
                 },
                 {
                     "name": "DIAVOLO"
+                },
+                {
+                    "name": "Dorito Dust"
                 },
                 {
                     "name": "(Hard) Faded"
@@ -798,6 +789,9 @@
                     "name": "(Hard) Holy Night"
                 },
                 {
+                    "name": "(Hard) Hue Shift"
+                },
+                {
                     "name": "(Hard) Hurts So Good"
                 },
                 {
@@ -822,6 +816,9 @@
                     "name": "(Hard) Santa Tell Me"
                 },
                 {
+                    "name": "Tires On Fire"
+                },
+                {
                     "name": "Wizards In Winter"
                 }
             ]
@@ -839,7 +836,7 @@
                     "name": "(Hard) Ambitious"
                 },
                 {
-                    "name": "(Hard) (Cover) All Star"
+                    "name": "(Hard) All Star"
                 },
                 {
                     "name": "(Hard) Apologize"
@@ -863,7 +860,7 @@
                     "name": "(Hard) Feel Good, Inc"
                 },
                 {
-                    "name": "(Hard) (Nylon Pink Rock Cover) Gee"
+                    "name": "(Hard) Gee (Nylon Pink Rock Cover)"
                 },
                 {
                     "name": "(Hard) Heads Will Roll"
@@ -875,7 +872,7 @@
                     "name": "(Hard) High Hopes"
                 },
                 {
-                    "name": "(Remix) Insight"
+                    "name": "Insight (Nyctophobe Remix) by Haywyre"
                 },
                 {
                     "name": "(Hard) Raining Tacos"
@@ -929,16 +926,10 @@
                     "name": "Scatman"
                 },
                 {
-                    "name": "(Hard) Serendipity"
-                },
-                {
                     "name": "(Hard) Shelter"
                 },
                 {
                     "name": "(Hard) Simple & Clean-Ray of Hope-"
-                },
-                {
-                    "name": "(Hard) Snow halation"
                 },
                 {
                     "name": "Spectrum"
@@ -1094,9 +1085,6 @@
                     "name": "(Hard) Gateway"
                 },
                 {
-                    "name": "(Hard) A Cruel Angel's Thesis"
-                },
-                {
                     "name": "(Remix) This Will Be The Day"
                 },
                 {
@@ -1184,6 +1172,9 @@
                     "name": "(Hard) Like You"
                 },
                 {
+                    "name": "(Hard) No Dice"
+                },
+                {
                     "name": "Space Battle"
                 },
                 {
@@ -1194,9 +1185,6 @@
                 },
                 {
                     "name": "(Hard) Mysterious Messenger"
-                },
-                {
-                    "name": "(Hard) Hacking to the Gate"
                 },
                 {
                     "name": "(Hard) Crab Rave"
@@ -1238,10 +1226,16 @@
                     "name": "(Hard) Blush"
                 },
                 {
+                    "name": "(Hard) Making Dew"
+                },
+                {
                     "name": "Staring at star"
                 },
                 {
                     "name": "(Hard) Black Swan"
+                },
+                {
+                    "name": "(Hard) dogjam"
                 },
                 {
                     "name": "Dyscontrolled Galaxy"
@@ -1387,7 +1381,7 @@
                     "name": "(Hard) Despacito"
                 },
                 {
-                    "name": "Angelic Jelly"
+                    "name": "(Hard) Angelic Jelly"
                 },
                 {
                     "name": "(Hard) Thriller"
@@ -1435,9 +1429,6 @@
                     "name": "(Hard) (Cover) This Will Be the Day"
                 },
                 {
-                    "name": "(Hard) Bowser's Castle"
-                },
-                {
                     "name": "(Hard) Sand Planet"
                 },
                 {
@@ -1448,6 +1439,9 @@
                 },
                 {
                     "name": "(Hard) Dad Battle"
+                },
+                {
+                    "name": "(Hard) Dorito Dust"
                 },
                 {
                     "name": "(Hard) Mei"
@@ -1484,6 +1478,9 @@
                 },
                 {
                     "name": "(Hard) Senbonzakura"
+                },
+                {
+                    "name": "(Hard) Tires On Fire"
                 },
                 {
                     "name": "(Hard) DDU-DU DDU-DU"
@@ -1560,7 +1557,7 @@
                     "name": "(Hard) If"
                 },
                 {
-                    "name": "(Hard) (Remix) Insight"
+                    "name": "(Hard) Insight"
                 },
                 {
                     "name": "(Hard) My Boo"
@@ -1575,19 +1572,22 @@
                     "name": "(Hard) The Battle For Everyone's Souls"
                 },
                 {
-                    "name": "(Hard) unravel"
+                    "name": "(Hard) Unravel"
+                },
+                {
+                    "name": "(Hard) Zen Zen Zense"
                 },
                 {
                     "name": "(Hard) Artificial Intelligence Bomb"
                 },
                 {
-                    "name": "(Hard) Black"
+                    "name": "(Hard) Black "
                 },
                 {
                     "name": "(Hard) CroiX"
                 },
                 {
-                    "name": "(Hard) DIAVOLO"
+                    "name": "(Hard) DIAVOLO "
                 },
                 {
                     "name": "(Hard) Flight of the Bumblebee"
@@ -1612,6 +1612,9 @@
                 },
                 {
                     "name": "(Hard) The Disappearance of Hatsune Miku"
+                },
+                {
+                    "name": "(Hard) Report 4: New World"
                 },
                 {
                     "name": "(Hard) Dyscontrolled Galaxy"
