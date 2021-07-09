@@ -1,19 +1,19 @@
+
 {
     "diffs": [
         {
             "name": "1-10",
-            "songs": [
-                {
-                    "name": "All Star (Eugeen Remix)"
+            "songs": [{
+                    "name": "@_@"
                 },
                 {
-                    "name": "Apologize"
+                    "name": "Better Run"
                 },
                 {
                     "name": "Carissa"
                 },
                 {
-                    "name": "Gee (Preetaxyz Cover)"
+                    "name": "Jump, Goober, Jump!!"
                 },
                 {
                     "name": "Mark Twain"
@@ -22,34 +22,49 @@
                     "name": "Monday Night Monsters"
                 },
                 {
-                    "name": "Renai Circulation"
+                    "name": "The Vocab Quiz"
                 },
                 {
-                    "name": "Bamboo Disco"
+                    "name": "Window Cleaner: A Tale Of Two Gangs"
+                },
+                {
+                    "name": "Daily Life"
                 },
                 {
                     "name": "EPIC"
                 },
                 {
-                    "name": "Gee (Nylon Pink Rock Cover)"
-                },
-                {
-                    "name": "Goodbye To A World"
+                    "name": "Hue Shift"
                 },
                 {
                     "name": "Let's Talk"
                 },
                 {
+                    "name": "Make Your Body Shake"
+                },
+                {
+                    "name": "Nana"
+                },
+                {
+                    "name": "Nautilus"
+                },
+                {
                     "name": "Neon"
                 },
                 {
-                    "name": "Thriller"
+                    "name": "Step Forward"
                 },
                 {
                     "name": "Are We Still Young"
                 },
                 {
-                    "name": "Carry On My Wayward Son"
+                    "name": "Aurora"
+                },
+                {
+                    "name": "Baby I Don't Care"
+                },
+                {
+                    "name": "Chronostasis"
                 },
                 {
                     "name": "Decoy World VIP"
@@ -61,16 +76,7 @@
                     "name": "Elevator"
                 },
                 {
-                    "name": "Faded"
-                },
-                {
                     "name": "Fresh"
-                },
-                {
-                    "name": "GANGNAM STYLE"
-                },
-                {
-                    "name": "Ghost Busters"
                 },
                 {
                     "name": "Gold"
@@ -82,16 +88,7 @@
                     "name": "Ocean Eyes"
                 },
                 {
-                    "name": "I Want It That Way"
-                },
-                {
-                    "name": "Party Rock Anthem"
-                },
-                {
-                    "name": "Party in The U.S.A."
-                },
-                {
-                    "name": "Pop Culture"
+                    "name": "Octane"
                 },
                 {
                     "name": "Robot Midlife Crisis"
@@ -100,19 +97,13 @@
                     "name": "Secrets of the Universe"
                 },
                 {
-                    "name": "Shelter"
+                    "name": "Serenity"
                 },
                 {
-                    "name": "September"
+                    "name": "This Future"
                 },
                 {
-                    "name": "Short Skirts"
-                },
-                {
-                    "name": "Take Me Home, Country Roads"
-                },
-                {
-                    "name": "bad guy"
+                    "name": "Together forever, my lovely lovely video game cartridges"
                 },
                 {
                     "name": "Days"
@@ -121,40 +112,25 @@
                     "name": "Endless Tower"
                 },
                 {
+                    "name": "Epilogue"
+                },
+                {
+                    "name": "Euphoria"
+                },
+                {
+                    "name": "Exosphere"
+                },
+                {
                     "name": "From Here"
                 },
                 {
-                    "name": "Hue Shift"
-                },
-                {
-                    "name": "Heads Will Roll"
-                },
-                {
-                    "name": "Kung Fu Fighting"
-                },
-                {
-                    "name": "Last Surprise"
-                },
-                {
-                    "name": "Love Story"
+                    "name": "Happy! Lucky! La Kirari"
                 },
                 {
                     "name": "Microwave Popcorn"
                 },
                 {
-                    "name": "Mysterious Messenger"
-                },
-                {
-                    "name": "Never Gonna Give You Up"
-                },
-                {
                     "name": "Polargeist"
-                },
-                {
-                    "name": "Santa Tell Me"
-                },
-                {
-                    "name": "Set Me Free"
                 },
                 {
                     "name": "Smile"
@@ -163,139 +139,112 @@
                     "name": "Yeah"
                 },
                 {
-                    "name": "Fresh Prince of Bel-Air"
+                    "name": "You And I"
+                },
+                {
+                    "name": "Don't Wanna"
+                },
+                {
+                    "name": "Decisions"
                 },
                 {
                     "name": "Forward"
                 },
                 {
-                    "name": "Friends"
+                    "name": "Let's Roll"
                 },
                 {
-                    "name": "Havana"
+                    "name": "Rat's Birthday Mixtape"
                 },
                 {
-                    "name": "Holy Night"
+                    "name": "Rivals"
                 },
                 {
-                    "name": "Stressed Out"
+                    "name": "Share Friendship"
                 },
                 {
-                    "name": "Uptown Funk"
+                    "name": "Two Sides"
                 },
                 {
-                    "name": "Where Are U Now"
+                    "name": "Chillout"
                 },
                 {
-                    "name": "Zero Wing Medley"
+                    "name": "Clouds in the Blue"
                 },
                 {
-                    "name": "Brass"
+                    "name": "Electro Cabello"
                 },
                 {
-                    "name": "Dynamite"
-                },
-                {
-                    "name": "Face My Fears"
-                },
-                {
-                    "name": "Funky Dealer"
-                },
-                {
-                    "name": "Goya no Machiawase"
+                    "name": "Guardians Of The Sun"
                 },
                 {
                     "name": "Hej Monika"
                 },
                 {
-                    "name": "High Hopes"
-                },
-                {
-                    "name": "Jump Up, Super Star!"
-                },
-                {
-                    "name": "Katamari On The Rocks"
+                    "name": "I Can't"
                 },
                 {
                     "name": "Like You"
                 },
                 {
-                    "name": "No Dice"
-                },
-                {
                     "name": "macaron moon"
                 },
                 {
-                    "name": "Mystic Mansion"
+                    "name": "Moneko"
                 },
                 {
-                    "name": "Numb"
+                    "name": "No Dice"
                 },
                 {
-                    "name": "OTTER POP"
+                    "name": "Now I Do"
                 },
                 {
                     "name": "Pico"
                 },
                 {
-                    "name": "Raining Tacos"
+                    "name": "Place On Fire"
                 },
                 {
-                    "name": "Overwatch Victory"
+                    "name": "Rice Expedition - Looking for the Voice of Dawn"
                 },
                 {
-                    "name": "Shooting Stars"
+                    "name": "Something in the Water"
                 },
                 {
-                    "name": "Splattack"
+                    "name": "The Falling Mysts"
                 },
                 {
-                    "name": "Alone"
+                    "name": "Afterlife"
                 },
                 {
                     "name": "Black Swan"
                 },
                 {
-                    "name": "Candyland"
-                },
-                {
                     "name": "Chasing Clouds"
                 },
                 {
-                    "name": "Finesse"
+                    "name": "Cutie Lovely Princess"
                 },
                 {
-                    "name": "Fly Me To The Moon"
-                },
-                {
-                    "name": "Gourmet Race"
+                    "name": "Galaxy"
                 },
                 {
                     "name": "Great Moves! Keep It Up!"
                 },
                 {
-                    "name": "Hotline Bling"
-                },
-                {
-                    "name": "Hurts So Good"
-                },
-                {
                     "name": "Making Dew"
                 },
                 {
-                    "name": "ME!ME!ME!"
+                    "name": "My World"
                 },
                 {
-                    "name": "My Boo"
+                    "name": "Neurotoxicity"
                 },
                 {
-                    "name": "Nyan Cat"
+                    "name": "New World"
                 },
                 {
-                    "name": "Ocean Man"
-                },
-                {
-                    "name": "Onegai! Cinderella!"
+                    "name": "Outbreaker"
                 },
                 {
                     "name": "Phantom"
@@ -304,121 +253,112 @@
                     "name": "Poems Are Forever"
                 },
                 {
-                    "name": "(Hard) Pop Culture"
-                },
-                {
-                    "name": "Scary Monsters and Nice Sprites"
-                },
-                {
-                    "name": "Simple & Clean-Ray of Hope-"
-                },
-                {
                     "name": "South"
                 },
                 {
-                    "name": "Through the Fire and Flames"
+                    "name": "Taking Me Higher"
                 },
                 {
-                    "name": "Thunder"
+                    "name": "Astar"
                 },
                 {
-                    "name": "Umbrella"
+                    "name": "Body"
                 },
                 {
-                    "name": "Wonderful Christmastime"
+                    "name": "Carnivores"
                 },
                 {
-                    "name": "Ballad of the Wind Fish"
-                },
-                {
-                    "name": "Best Friend"
-                },
-                {
-                    "name": "Boy With Luv"
-                },
-                {
-                    "name": "CHEER UP"
-                },
-                {
-                    "name": "Deja Vu"
-                },
-                {
-                    "name": "Endless Starlight"
+                    "name": "FIREBITE!"
                 },
                 {
                     "name": "Future Candy"
                 },
                 {
-                    "name": "Hello,Morning"
-                },
-                {
-                    "name": "Hitorigoto"
+                    "name": "Fly Wit Me"
                 },
                 {
                     "name": "Inner"
                 },
                 {
+                    "name": "Internet Boy"
+                },
+                {
                     "name": "Kanjou Chemistry"
                 },
                 {
-                    "name": "Last Christmas"
+                    "name": "Lightmare"
                 },
                 {
-                    "name": "Mario Paint"
+                    "name": "Nocturne Silence of the Night"
+                },
+                {
+                    "name": "Medusa"
+                },
+                {
+                    "name": "Mope Mope"
                 },
                 {
                     "name": "Philly Nice"
                 },
                 {
-                    "name": "Plastic Love"
+                    "name": "Revenger"
                 },
                 {
-                    "name": "Pompeii"
+                    "name": "Roblox Anthem (\"Here We Go\")"
                 },
                 {
-                    "name": "Roblox Anthem"
+                    "name": "Say It Back"
+                },
+                {
+                    "name": "Shaii"
+                },
+                {
+                    "name": "Shop 'til You Drop"
                 },
                 {
                     "name": "Spookeez"
                 },
                 {
-                    "name": "This Game"
-                },
-                {
-                    "name": "This is Halloween"
+                    "name": "Time Leaper"
                 },
                 {
                     "name": "Vulnerability"
                 },
                 {
-                    "name": "Wishing"
+                    "name": "Blush"
                 },
                 {
-                    "name": "Blush"
+                    "name": "British Tea"
+                },
+                {
+                    "name": "CandyLand"
+                },
+                {
+                    "name": "Crystallize"
                 },
                 {
                     "name": "Daisuke"
                 },
                 {
-                    "name": "Clarity"
+                    "name": "Duality"
                 },
                 {
-                    "name": "forever we can make it!"
+                    "name": "Escape"
+                },
+                {
+                    "name": "Enigma"
+                },
+                {
+                    "name": "Guardian"
                 },
                 {
                     "name": "Hampster Dance"
                 },
                 {
-                    "name": "I'm Blue"
-                },
-                {
-                    "name": "I Won't Let You Down"
-                },
-                {
                     "name": "Journey Through The Caves"
                 },
                 {
-                    "name": "Marionette"
+                    "name": "Machina"
                 },
                 {
                     "name": "Mei"
@@ -427,19 +367,13 @@
                     "name": "PLAY"
                 },
                 {
-                    "name": "POKEMON GO SONG!!!"
+                    "name": "Red Haze"
                 },
                 {
-                    "name": "Ponponpon"
+                    "name": "Shape of the Sun"
                 },
                 {
-                    "name": "Safety Dance"
-                },
-                {
-                    "name": "Smooth Criminal"
-                },
-                {
-                    "name": "Take On Me"
+                    "name": "Take Your Time"
                 },
                 {
                     "name": "The Friends We Made"
@@ -451,16 +385,10 @@
                     "name": "-Miami Hotline- Vol.3"
                 },
                 {
-                    "name": "All Star"
-                },
-                {
-                    "name": "ATHAZA"
-                },
-                {
                     "name": "Ambitious"
                 },
                 {
-                    "name": "Baby Shark"
+                    "name": "ATHAZA"
                 },
                 {
                     "name": "Dimension"
@@ -469,34 +397,22 @@
                     "name": "Everything But The Girl"
                 },
                 {
-                    "name": "Feel Good, Inc"
-                },
-                {
-                    "name": "Finesse"
-                },
-                {
-                    "name": "(Hard) Friends"
-                },
-                {
                     "name": "Galaxies"
                 },
                 {
-                    "name": "Jump"
+                    "name": "Hot"
                 },
                 {
-                    "name": "MEGALOVANIA"
+                    "name": "Magic"
                 },
                 {
-                    "name": "Omae Wa Mou"
+                    "name": "Mark Twain (Hard)"
                 },
                 {
-                    "name": "One Winged Angel"
+                    "name": "Moonlight"
                 },
                 {
-                    "name": "Overtime"
-                },
-                {
-                    "name": "Pretender"
+                    "name": "Realms"
                 },
                 {
                     "name": "Report 4: New World"
@@ -505,16 +421,13 @@
                     "name": "Rotasu"
                 },
                 {
-                    "name": "The 7th Element"
+                    "name": "Sprite"
                 },
                 {
-                    "name": "The End"
+                    "name": "Summer time lover"
                 },
                 {
-                    "name": "Vi sitter i Ventrilo och spelar DotA"
-                },
-                {
-                    "name": "(Hard) Mark Twain"
+                    "name": "Take The Long Way Home"
                 }
             ]
         },
@@ -525,76 +438,85 @@
                     "name": "Brain Power"
                 },
                 {
+                    "name": "Dream"
+                },
+                {
+                    "name": "Dune"
+                },
+                {
+                    "name": "Ena"
+                },
+                {
+                    "name": "Feeling Alright"
+                },
+                {
+                    "name": "Galactic Voyage"
+                },
+                {
                     "name": "Get Stickbugged LOL!"
-                },
-                {
-                    "name": "Guile's Theme"
-                },
-                {
-                    "name": "Kiss of Death"
                 },
                 {
                     "name": "licca"
                 },
                 {
-                    "name": "(VIP) Marigold"
+                    "name": "Light It Up"
                 },
                 {
-                    "name": "New Bibi Hendl"
+                    "name": "Orange"
                 },
                 {
                     "name": "Perfume!"
                 },
                 {
-                    "name": "REANIMATE"
+                    "name": "Sphere"
                 },
                 {
-                    "name": "(Hard) September"
+                    "name": "Surface"
                 },
                 {
-                    "name": "(Hard) Dynamite"
+                    "name": "Can't Stop Our Noise"
                 },
                 {
-                    "name": "Floral Fury"
+                    "name": "dogjam"
                 },
                 {
-                    "name": "(Hard) Gee (Preetaxyz Cover)"
+                    "name": "Explorers"
                 },
                 {
-                    "name": "Gourmandises"
+                    "name": "Farewell, My Friend"
                 },
                 {
-                    "name": "Holdin' On"
+                    "name": "Happy Touch!"
                 },
                 {
-                    "name": "Korobeiniki"
+                    "name": "Looking for Edge of Ground"
                 },
                 {
-                    "name": "(Hard) Kung Fu Fighting"
+                    "name": "Marche Militaire"
                 },
                 {
-                    "name": "Marche Militarie"
+                    "name": "Redruth"
                 },
                 {
-                    "name": "Rockefeller Street"
+                    "name": "Secrets of the Universe (Hard)"
                 },
                 {
-                    "name": "(Hard) Secrets of the Universe"
-                },
-                {
-                    "name": "Thanks for being lifeless"
+                    "name": "The Long Drive"
                 },
                 {
                     "name": "Towards The Horizon"
                 },
                 {
-                    "name": "Beethoven virus"
+                    "name": "Aura"
+                },
+                {
+                    "name": "Buzztone Symphony"
                 },
                 {
                     "name": "Chronoxia"
                 },
                 {
-                    "name": "Common World Domination"
+                    "name": "Color"
                 },
                 {
                     "name": "Crab Rave"
@@ -603,154 +525,115 @@
                     "name": "Cutie Cutie"
                 },
                 {
+                    "name": "crystallized"
+                },
+                {
                     "name": "Daydream"
                 },
                 {
-                    "name": "Despacito"
+                    "name": "INSIDEOUT"
                 },
                 {
-                    "name": "Disco Descent"
-                },
-                {
-                    "name": "dogjam"
-                },
-                {
-                    "name": "Flight of the Bumblebee"
-                },
-                {
-                    "name": "Harder, Better, Faster, Stronger"
-                },
-                {
-                    "name": "I Want It That Way"
-                },
-                {
-                    "name": "Man's Not Hot"
-                },
-                {
-                    "name": "(Hard) Neon"
-                },
-                {
-                    "name": "(Hard) Party Rock Anthem"
-                },
-                {
-                    "name": "POP/STARS"
-                },
-                {
-                    "name": "Power Up"
-                },
-                {
-                    "name": "Rude Buster"
-                },
-                {
-                    "name": "Terrorize"
-                },
-                {
-                    "name": "The Day"
-                },
-                {
-                    "name": "Sand Planet"
-                },
-                {
-                    "name": "(Hard) Set Me Free"
-                },
-                {
-                    "name": "We Are Number One"
+                    "name": "Neon (Hard)"
                 },
                 {
                     "name": "P8107"
                 },
                 {
-                    "name": "Akari Has Arrived!"
+                    "name": "Power Up"
+                },
+                {
+                    "name": "Rock Thing"
+                },
+                {
+                    "name": "Slowly"
+                },
+                {
+                    "name": "St Tropez"
+                },
+                {
+                    "name": "Stadium Rave"
+                },
+                {
+                    "name": "Terrorize"
+                },
+                {
+                    "name": "Worlds"
                 },
                 {
                     "name": "Astronomia"
                 },
                 {
-                    "name": "DDU-DU DDU-DU"
+                    "name": "Enigma"
                 },
                 {
-                    "name": "Flamingo"
+                    "name": "Faerie"
                 },
                 {
-                    "name": "(Hard) Fresh"
+                    "name": "Feel Your Heart"
                 },
                 {
-                    "name": "(Hard) From Here"
+                    "name": "Fresh (Hard)"
                 },
                 {
-                    "name": "(Hard) Funky Dealer"
+                    "name": "From Here (Hard)"
                 },
                 {
                     "name": "Gateway"
                 },
                 {
-                    "name": "(Hard) Last Surprise"
+                    "name": "Learn The Language"
                 },
                 {
-                    "name": "Magnolia"
+                    "name": "Lovely my prince"
                 },
                 {
-                    "name": "(Hard) Monday Night Monsters"
+                    "name": "Monday Night Monsters (Hard)"
                 },
                 {
-                    "name": "(Hard) Mystic Mansion"
+                    "name": "Nasty * Nasty * Spell"
                 },
                 {
-                    "name": "(Hard) Numb"
-                },
-                {
-                    "name": "(Hard) Polargeist"
+                    "name": "Polargeist (Hard)"
                 },
                 {
                     "name": "Reincarnation"
                 },
                 {
-                    "name": "(Hard) Renai Circulation"
-                },
-                {
-                    "name": "(Hard) Robot Midlife Crisis"
-                },
-                {
-                    "name": "SANTA-SAN"
+                    "name": "Robot Midlife Crisis (Hard)"
                 },
                 {
                     "name": "Senbonzakura"
                 },
                 {
-                    "name": "(Hard) Short Skirts"
+                    "name": "Skystrike"
                 },
                 {
-                    "name": "(Hard) Stressed Out"
+                    "name": "Will There Really Be A Morning"
                 },
                 {
-                    "name": "(Hard) Take Me Home, Country Roads"
+                    "name": "Yeah (Hard)"
                 },
                 {
-                    "name": "(Hard) Yeah"
-                },
-                {
-                    "name": "(Hard) All Star"
-                },
-                {
-                    "name": "(Hard) Are We Still Young"
+                    "name": "Another day"
                 },
                 {
                     "name": "archive::zip"
                 },
                 {
-                    "name": "(Hard) bad guy"
+                    "name": "Are We Still Young(Hard)"
                 },
                 {
-                    "name": "Burnt Rice"
+                    "name": "Baby I Don't Care (Hard)"
                 },
                 {
                     "name": "Caliburne ~ Story of the Legendary sword ~"
                 },
                 {
-                    "name": "croiX"
+                    "name": "Chillout (Hard)"
                 },
                 {
-                    "name": "(Hard) Elevator"
+                    "name": "croiX"
                 },
                 {
                     "name": "DIAVOLO"
@@ -759,67 +642,61 @@
                     "name": "Dorito Dust"
                 },
                 {
-                    "name": "(Hard) Faded"
+                    "name": "Dreaming of flying in the night sky"
                 },
                 {
-                    "name": "(Hard) Fly Me To The Moon"
+                    "name": "Elevator (Hard)"
                 },
                 {
-                    "name": "(Hard) GANGNAM STYLE"
+                    "name": "Evanescent"
                 },
                 {
-                    "name": "(Hard) Gold"
+                    "name": "Exit This Earth's Atomosphere"
                 },
                 {
-                    "name": "(Hard) Goodbye To A World"
+                    "name": "Gold (Hard)"
                 },
                 {
-                    "name": "(Hard) Great Moves! Keep It Up!"
-                },
-                {
-                    "name": "(Hard) Havana"
+                    "name": "Great Moves! Keep It Up! (Hard)"
                 },
                 {
                     "name": "Heat Wave"
                 },
                 {
-                    "name": "(Hard) Hej Monika"
+                    "name": "Hej Monika (Hard)"
                 },
                 {
-                    "name": "(Hard) Holy Night"
+                    "name": "Hue Shift (Hard)"
                 },
                 {
-                    "name": "(Hard) Hue Shift"
-                },
-                {
-                    "name": "(Hard) Hurts So Good"
+                    "name": "INTIMIDATE"
                 },
                 {
                     "name": "Ievan Polkka"
                 },
                 {
-                    "name": "Jingle Bells"
+                    "name": "Joyride"
                 },
                 {
-                    "name": "Never Gonna Give You Up"
+                    "name": "Marenol"
                 },
                 {
-                    "name": "(Hard) Ocean Man"
+                    "name": "Outbreaker (Hard)"
                 },
                 {
-                    "name": "Ring of Fortune"
+                    "name": "Silly Bee"
                 },
                 {
-                    "name": "RUNNING IN THE 90'S"
+                    "name": "Summer Supernova"
                 },
                 {
-                    "name": "(Hard) Santa Tell Me"
+                    "name": "Supernova"
                 },
                 {
                     "name": "Tires On Fire"
                 },
                 {
-                    "name": "Wizards In Winter"
+                    "name": "Vulture"
                 }
             ]
         },
@@ -827,463 +704,442 @@
             "name": "16-20",
             "songs": [
                 {
-                    "name": "A-E-I-U-E-O Ao!!"
+                    "name": "Ambitious (Hard)"
                 },
                 {
-                    "name": "(Hard) Alone"
+                    "name": "Carnivores (Hard)"
                 },
                 {
-                    "name": "(Hard) Ambitious"
+                    "name": "Challenger"
                 },
                 {
-                    "name": "(Hard) All Star"
+                    "name": "Crab Rave (Camellia Remix)"
                 },
                 {
-                    "name": "(Hard) Apologize"
-                },
-                {
-                    "name": "(Hard) Fresh Prince of Bel-Air"
-                },
-                {
-                    "name": "(Hard) Boy With Luv"
-                },
-                {
-                    "name": "(Hard) CHEER UP"
+                    "name": "Crazy Magic"
                 },
                 {
                     "name": "Dad Battle"
                 },
                 {
-                    "name": "(Hard) Everything But The Girl"
+                    "name": "Decisions (Hard)"
                 },
                 {
-                    "name": "(Hard) Feel Good, Inc"
+                    "name": "Ena (Hard)"
                 },
                 {
-                    "name": "(Hard) Gee (Nylon Pink Rock Cover)"
+                    "name": "Everything But The Girl (Hard)"
                 },
                 {
-                    "name": "(Hard) Heads Will Roll"
+                    "name": "Guardian (Hard)"
                 },
                 {
-                    "name": "(Hard) Hello,Morning"
+                    "name": "introduction - INSANE INFLAME"
                 },
                 {
-                    "name": "(Hard) High Hopes"
+                    "name": "I Can't (Hard)"
                 },
                 {
-                    "name": "Insight (Nyctophobe Remix) by Haywyre"
+                    "name": "Insight (Nyctophobe Remix)"
                 },
                 {
-                    "name": "(Hard) Raining Tacos"
+                    "name": "Kanjou Chemistry (Hard)"
                 },
                 {
-                    "name": "(Hard) Jump Up, Super Star!"
-                },
-                {
-                    "name": "(Hard) Kanjou Chemistry"
-                },
-                {
-                    "name": "(Hard) Katamari On The Rocks"
-                },
-                {
-                    "name": "(Hard) Love Story"
-                },
-                {
-                    "name": "(Hard) Love! Snow! Really Magic"
-                },
-                {
-                    "name": "(Hard) macaron moon"
-                },
-                {
-                    "name": "(Hard) MEGALOVANIA"
-                },
-                {
-                    "name": "(Hard) New Bibi Hendl"
+                    "name": "macaron moon (Hard)"
                 },
                 {
                     "name": "Night of Knights"
                 },
                 {
-                    "name": "(Hard) Onegai! Cinderella!"
-                },
-                {
-                    "name": "(Hard) OTTER POP"
-                },
-                {
-                    "name": "(Hard) Ponponpon"
-                },
-                {
-                    "name": "(Hard) Pretender"
+                    "name": "Place On Fire (Hard)"
                 },
                 {
                     "name": "Sakkijarven polkka"
                 },
                 {
-                    "name": "Sandstorm"
+                    "name": "Serenity (Hard)"
                 },
                 {
-                    "name": "Scatman"
-                },
-                {
-                    "name": "(Hard) Shelter"
-                },
-                {
-                    "name": "(Hard) Simple & Clean-Ray of Hope-"
+                    "name": "Share Friendship (Hard)"
                 },
                 {
                     "name": "Spectrum"
                 },
                 {
-                    "name": "Tank"
+                    "name": "Stadium Rave (Hard)"
                 },
                 {
-                    "name": "This Will Be the Day"
+                    "name": "Taking Me Higher (Hard)"
                 },
                 {
-                    "name": "(Hard) Thunder"
+                    "name": "Time Leaper (Hard)"
                 },
                 {
-                    "name": "unravel"
+                    "name": "Virtual"
                 },
                 {
-                    "name": "We Wish You A Merry Christmas"
+                    "name": "Daily Life (Hard)"
                 },
                 {
-                    "name": "(Hard) Journey Through The Caves"
+                    "name": "Days (Hard)"
                 },
                 {
-                    "name": "U.N. Owen was her?"
+                    "name": "Drive Real Fast (On Fire)"
                 },
                 {
-                    "name": "(Hard) Wither"
+                    "name": "Dreamless Wanderer"
                 },
                 {
-                    "name": "(Hard) Phantom"
+                    "name": "Endless Tower (Hard)"
                 },
                 {
-                    "name": "(Hard) Vulnerability"
+                    "name": "Future Candy (Hard)"
                 },
                 {
-                    "name": "(Hard) Towards The Horizon"
+                    "name": "Gateway (Hard)"
                 },
                 {
-                    "name": "(Hard) The End"
-                },
-                {
-                    "name": "(Hard) POKEMON GO SONG!!!"
-                },
-                {
-                    "name": "(Hard) We Are Number One"
-                },
-                {
-                    "name": "(Hard) Shooting Stars"
-                },
-                {
-                    "name": "Black"
-                },
-                {
-                    "name": "(Hard) Future Candy"
-                },
-                {
-                    "name": "(Hard) Uptown Funk"
-                },
-                {
-                    "name": "(Hard) Bamboo Disco"
-                },
-                {
-                    "name": "The Battle For Everyone's Souls"
-                },
-                {
-                    "name": "(Hard) Plastic Love"
-                },
-                {
-                    "name": "(Hard) Goya no Machiawase"
-                },
-                {
-                    "name": "(Hard) Candyland"
-                },
-                {
-                    "name": "(Hard) Rude Buster"
-                },
-                {
-                    "name": "(Hard) Hotline Bling"
-                },
-                {
-                    "name": "(Hard) Brass"
-                },
-                {
-                    "name": "(Hard) Disco Descent"
-                },
-                {
-                    "name": "(Hard) Mario Paint"
-                },
-                {
-                    "name": "(Hard) Pompeii"
-                },
-                {
-                    "name": "(Hard) Safety Dance"
-                },
-                {
-                    "name": "(Hard) Rockefeller Street"
-                },
-                {
-                    "name": "U Got That"
-                },
-                {
-                    "name": "(Hard) Carry On My Wayward Son"
-                },
-                {
-                    "name": "(Hard) Vi sitter i Ventrilo och spelar DotA"
+                    "name": "Happy! Lucky! La Kirari (Hard)"
                 },
                 {
                     "name": "If"
                 },
                 {
-                    "name": "Brainiac Maniac"
+                    "name": "Journey Through The Caves (Hard)"
                 },
                 {
-                    "name": "(Hard) Wonderful Christmastime"
+                    "name": "Jungle (Hard)"
+                },
+                {
+                    "name": "Microwave Popcorn (Hard)"
+                },
+                {
+                    "name": "Momentum"
+                },
+                {
+                    "name": "My World (Hard)"
+                },
+                {
+                    "name": "Operation: Evolution"
+                },
+                {
+                    "name": "Phantom (Hard)"
+                },
+                {
+                    "name": "Poems Are Forever (Hard)"
+                },
+                {
+                    "name": "Poison AND%OR Affection"
                 },
                 {
                     "name": "Reaction"
                 },
                 {
-                    "name": "(Hard) Gourmandises"
+                    "name": "Rotasu (Hard)"
                 },
                 {
-                    "name": "(Hard) Days"
+                    "name": "Spookeez (Hard)"
                 },
                 {
-                    "name": "(Hard) Rotasu"
+                    "name": "Spooky Time"
                 },
                 {
-                    "name": "(Hard) Endless Tower"
+                    "name": "Something in the Water (Hard)"
                 },
                 {
-                    "name": "(Hard) Floral Fury"
+                    "name": "South (Hard)"
                 },
                 {
-                    "name": "Tell Your World"
+                    "name": "Summer Met With a Meteor Shower"
                 },
                 {
-                    "name": "(Hard) Microwave Popcorn"
+                    "name": "The Best of Creo Vol.1"
                 },
                 {
-                    "name": "(Hard) Jungle"
+                    "name": "Together forever, my lovely lovely video game cartridges (Hard)"
                 },
                 {
-                    "name": "(Hard) Spookeez"
+                    "name": "Towards The Horizon (Hard)"
                 },
                 {
-                    "name": "(Hard) South"
+                    "name": "U Got That"
                 },
                 {
-                    "name": "(Hard) Poems Are Forever"
+                    "name": "Unshakable"
                 },
                 {
-                    "name": "(Hard) Gateway"
+                    "name": "U.N. Owen was her?"
                 },
                 {
-                    "name": "(Remix) This Will Be The Day"
+                    "name": "Vulnerability (Hard)"
                 },
                 {
-                    "name": "(Hard) ME!ME!ME!"
-                },
-                {
-                    "name": "(Hard) Brain Power"
-                },
-                {
-                    "name": "(Hard) This is Halloween"
-                },
-                {
-                    "name": "(Hard) Perfume!"
-                },
-                {
-                    "name": "(Hard) Man's Not Hot"
-                },
-                {
-                    "name": "Insight"
-                },
-                {
-                    "name": "(Hard) Roblox Anthem"
-                },
-                {
-                    "name": "(Hard) Beethoven virus"
-                },
-                {
-                    "name": "(Hard) Overtime"
-                },
-                {
-                    "name": "(Hard) Jump"
-                },
-                {
-                    "name": "(Hard) Scary Monsters and Nice Sprites"
-                },
-                {
-                    "name": "(Hard) Best Friend"
-                },
-                {
-                    "name": "(Hard) Zero Wing Medley"
-                },
-                {
-                    "name": "SCATMAN -SCATMAN_TETO-"
-                },
-                {
-                    "name": "SOUL EXPLOSION"
-                },
-                {
-                    "name": "(Hard) Face My Fears"
-                },
-                {
-                    "name": "PoPiPo"
-                },
-                {
-                    "name": "(Hard) Omae Wa Mou"
-                },
-                {
-                    "name": "(Hard) Umbrella"
-                },
-                {
-                    "name": "(Hard) Decoy World VIP"
-                },
-                {
-                    "name": "(VIP) Robeats Remix Ten"
-                },
-                {
-                    "name": "(Hard) forever we can make it!"
-                },
-                {
-                    "name": "(Hard) Let's Talk"
-                },
-                {
-                    "name": "(Hard) Ghost Busters"
-                },
-                {
-                    "name": "(Hard) Spectrum"
+                    "name": "Wither (Hard)"
                 },
                 {
                     "name": "A Lasting Promise"
                 },
                 {
-                    "name": "(Hard) Pico"
+                    "name": "Awaken"
                 },
                 {
-                    "name": "(Hard) Like You"
+                    "name": "Be My Time Machine"
                 },
                 {
-                    "name": "(Hard) No Dice"
+                    "name": "Brain Power (Hard)"
                 },
                 {
-                    "name": "Space Battle"
+                    "name": "Clouds in the Blue (Hard)"
                 },
                 {
-                    "name": "(Hard) Marionette"
+                    "name": "Decoy World VIP (Hard)"
                 },
                 {
-                    "name": "(Hard) Thanks for being lifeless"
+                    "name": "Don't Stop the Rave"
                 },
                 {
-                    "name": "(Hard) Mysterious Messenger"
+                    "name": "Dream (Hard)"
                 },
                 {
-                    "name": "(Hard) Crab Rave"
+                    "name": "Insight"
+                },
+                {
+                    "name": "Let's Talk (Hard)"
+                },
+                {
+                    "name": "Lightmare (Hard)"
+                },
+                {
+                    "name": "Like You (Hard)"
+                },
+                {
+                    "name": "Lyrith"
+                },
+                {
+                    "name": "Magic (Hard)"
+                },
+                {
+                    "name": "Monster"
+                },
+                {
+                    "name": "Nautilus (Hard)"
+                },
+                {
+                    "name": "Perfume! (Hard)"
+                },
+                {
+                    "name": "Pico (Hard)"
+                },
+                {
+                    "name": "Realms (Hard)"
+                },
+                {
+                    "name": "Ready For The Madness"
+                },
+                {
+                    "name": "RoBeats Remix Ten"
+                },
+                {
+                    "name": "Roblox Anthem (\"Here We Go\") (Hard)"
+                },
+                {
+                    "name": "Shaii (Hard)"
+                },
+                {
+                    "name": "Shape of the Sun (Hard)"
+                },
+                {
+                    "name": "Slowly (Hard)"
+                },
+                {
+                    "name": "SOUL EXPLOSION"
+                },
+                {
+                    "name": "Spectrum (Hard)"
+                },
+                {
+                    "name": "Wanna See A Light"
+                },
+                {
+                    "name": "Alice in misanthrope"
+                },
+                {
+                    "name": "Another day (Hard)"
                 },
                 {
                     "name": "Artificial Intelligence Bomb"
                 },
                 {
-                    "name": "Fury of the Storm"
+                    "name": "ATHAZA (Hard)"
                 },
                 {
-                    "name": "(Hard) Ballad of the Wind Fish"
+                    "name": "Bad Apple"
                 },
                 {
-                    "name": "(Hard) Nyan Cat"
+                    "name": "Blush (Hard)"
                 },
                 {
-                    "name": "(VIP) Bad Apple"
+                    "name": "BPM = RT"
                 },
                 {
-                    "name": "(Hard) I Won't Let You Down"
+                    "name": "Chasing Clouds (Hard)"
                 },
                 {
-                    "name": "(Hard) Dimension"
+                    "name": "Crab Rave (Hard)"
                 },
                 {
-                    "name": "(Hard) The 7th Element"
+                    "name": "Crystallize (Hard)"
                 },
                 {
-                    "name": "(Hard) EPIC"
+                    "name": "Dimension (Hard)"
                 },
                 {
-                    "name": "(Hard) ATHAZA"
+                    "name": "Electro Cabello (Hard)"
                 },
                 {
-                    "name": "(Hard) Chasing Clouds"
+                    "name": "EPIC (Hard)"
                 },
                 {
-                    "name": "(Hard) Blush"
+                    "name": "Explorers (Hard)"
                 },
                 {
-                    "name": "(Hard) Making Dew"
+                    "name": "Galaxy (Hard)"
                 },
                 {
-                    "name": "Staring at star"
+                    "name": "Moonlight (Hard)"
                 },
                 {
-                    "name": "(Hard) Black Swan"
+                    "name": "New World (Hard)"
                 },
                 {
-                    "name": "(Hard) dogjam"
+                    "name": "Newspapers for Magicians"
+                },
+                {
+                    "name": "No Dice (Hard)"
+                },
+                {
+                    "name": "Rock Thing (Hard)"
+                },
+                {
+                    "name": "Say It Back (Hard)"
+                },
+                {
+                    "name": "Shop 'til You Drop (Hard)"
+                },
+                {
+                    "name": "Silly Bee (Hard)"
+                },
+                {
+                    "name": "Space Battle"
+                },
+                {
+                    "name": "Step Forward (Hard)"
+                },
+                {
+                    "name": "St Tropez (Hard)"
+                },
+                {
+                    "name": "Take Your Time (Hard)"
+                },
+                {
+                    "name": "The Long Drive (Hard)"
+                },
+                {
+                    "name": "The Memory of Summer"
+                },
+                {
+                    "name": "The Vocab Quiz (Hard)"
+                },
+                {
+                    "name": "Window Cleaner: A Tale of Two Gangs (Hard)"
+                },
+                {
+                    "name": "At the Speed of Light"
+                },
+                {
+                    "name": "Black Swan (Hard)"
+                },
+                {
+                    "name": "CandyLand (Hard)"
+                },
+                {
+                    "name": "Carissa (Hard)"
+                },
+                {
+                    "name": "Cutie Lovely Princess (Hard)"
+                },
+                {
+                    "name": "dogjam (Hard)"
                 },
                 {
                     "name": "Dyscontrolled Galaxy"
                 },
                 {
-                    "name": "(Hard) Take On Me"
+                    "name": "Exosphere (Hard)"
                 },
                 {
-                    "name": "(Hard) Wishing"
+                    "name": "FIREBITE! (Hard)"
                 },
                 {
-                    "name": "(Hard) Ocean Eyes"
+                    "name": "Hampster Dance (Hard)"
                 },
                 {
-                    "name": "(Hard) One Winged Angel"
+                    "name": "Hold Me, Magic"
                 },
                 {
-                    "name": "(Hard) Hampster Dance"
+                    "name": "Hot (Hard)"
                 },
                 {
-                    "name": "(Hard) Where Are U Now"
+                    "name": "Inner (Hard)"
                 },
                 {
-                    "name": "(Hard) Clarity"
+                    "name": "Internet Boy (Hard)"
                 },
                 {
-                    "name": "(Hard) Reincarnation"
+                    "name": "Making Dew (Hard)"
                 },
                 {
-                    "name": "(Hard) Smooth Criminal"
+                    "name": "Medusa (Hard)"
                 },
                 {
-                    "name": "(Hard) Carissa"
+                    "name": "Ocean Eyes (Hard)"
                 },
                 {
-                    "name": "(Hard) Terrorize"
+                    "name": "Orange (Hard)"
                 },
                 {
-                    "name": "(Hard) Splattack"
+                    "name": "PLANET//SHAPER"
                 },
                 {
-                    "name": "(Hard) This Game"
+                    "name": "Red Haze (Hard)"
                 },
                 {
-                    "name": "(Hard) Jingle Bells"
+                    "name": "Reincarnation (Hard)"
                 },
                 {
-                    "name": "(Hard) Inner"
+                    "name": "Revenger (Hard)"
+                },
+                {
+                    "name": "Riran Hardstyle Mashup"
+                },
+                {
+                    "name": "Rivals (Hard)"
+                },
+                {
+                    "name": "Skystrike (Hard)"
+                },
+                {
+                    "name": "Small Theft Auto"
+                },
+                {
+                    "name": "Sphere (Hard)"
+                },
+                {
+                    "name": "Staring at star"
+                },
+                {
+                    "name": "Terrorize (Hard)"
                 }
             ]
         },
@@ -1291,250 +1147,313 @@
             "name": "21-25",
             "songs": [
                 {
+                    "name": "Better Run (Hard)"
+                },
+                {
+                    "name": "Body (Hard)"
+                },
+                {
+                    "name": "Devil's Palm"
+                },
+                {
+                    "name": "Drifters (Hard)"
+                },
+                {
+                    "name": "Euphoria (Hard)"
+                },
+                {
+                    "name": "Escape (Hard)"
+                },
+                {
+                    "name": "Enigma (Hard)"
+                },
+                {
+                    "name": "Feeling Alright (Hard)"
+                },
+                {
+                    "name": "Forward (Hard)"
+                },
+                {
+                    "name": "Get Stickbugged LOL! (Hard)"
+                },
+                {
                     "name": "Goodbye"
                 },
                 {
-                    "name": "(Hard) Common World Domination"
+                    "name": "LEMON SUMMER"
                 },
                 {
-                    "name": "(Hard) Holdin' On"
+                    "name": "Let's Roll (Hard)"
                 },
                 {
-                    "name": "(Hard) The Day"
+                    "name": "On Channel 13: The tv room Mashup"
                 },
                 {
-                    "name": "(Hard) Gourmet Race"
+                    "name": "P8107 (Hard)"
                 },
                 {
-                    "name": "(Hard) I'm Blue"
+                    "name": "PLAY (Hard)"
                 },
                 {
-                    "name": "(Hard) SANTA-SAN"
+                    "name": "Rat's Birthday Mixtape (Hard)"
                 },
                 {
-                    "name": "(VIP) LEMON SUMMER"
+                    "name": "RE:Beats! RoBeats Mashup Marathon"
                 },
                 {
-                    "name": "(Hard) Guile's Theme"
+                    "name": "Space Battle (D5Wolf Remix)"
                 },
                 {
-                    "name": "(Hard) Baby Shark"
+                    "name": "Vulture (Hard)"
                 },
                 {
-                    "name": "(Hard) Last Christmas"
+                    "name": "You And I (Hard)"
                 },
                 {
-                    "name": "(VIP) RE:Beats! Robeats Mashup Marathon"
+                    "name": "Aurora (Hard)"
                 },
                 {
-                    "name": "(Hard) Get Stickbugged LOL!"
+                    "name": "Angelic Jelly"
                 },
                 {
-                    "name": "(Hard) Drifters"
+                    "name": "Astronomia (Hard)"
                 },
                 {
-                    "name": "(Hard) P8107"
+                    "name": "British Tea (Hard)"
                 },
                 {
-                    "name": "(Hard) PLAY"
+                    "name": "Color (Hard)"
                 },
                 {
-                    "name": "(VIP) Space Battle"
+                    "name": "Daydream (Hard)"
                 },
                 {
-                    "name": "(Hard) Forward"
+                    "name": "Dune (Hard)"
                 },
                 {
-                    "name": "(Hard) licca"
+                    "name": "FREEDOM DiVE (cosMo@BousouP's METAL DIMENSIONS REMIX)"
                 },
                 {
-                    "name": "(Hard) Endless Starlight"
+                    "name": "GHOST"
                 },
                 {
-                    "name": "(Hard) Daydream"
-                },
-                {
-                    "name": "(Hard) Flamingo"
-                },
-                {
-                    "name": "(Hard) Deja Vu"
-                },
-                {
-                    "name": "(Hard) Harder, Better, Faster, Stronger"
-                },
-                {
-                    "name": "(Hard) Marche Militarie"
-                },
-                {
-                    "name": "(Hard) Tank"
+                    "name": "Galaxies (Hard)"
                 },
                 {
                     "name": "Galaxy Collapse"
                 },
                 {
-                    "name": "(Hard) Akari Has Arrived!"
+                    "name": "Jump, Goober, Jump!! (Hard)"
                 },
                 {
-                    "name": "(VIP) FREEDOM DiVE"
+                    "name": "licca (Hard)"
                 },
                 {
-                    "name": "(Hard) Despacito"
+                    "name": "Make Your Body Shake (Hard)"
                 },
                 {
-                    "name": "(Hard) Angelic Jelly"
+                    "name": "Marche Militarie (Hard)"
                 },
                 {
-                    "name": "(Hard) Thriller"
+                    "name": "Momentum (Hard)"
                 },
                 {
-                    "name": "(Hard) Astronomia"
+                    "name": "Philly Nice (Hard)"
                 },
                 {
-                    "name": "(Hard) Power Up"
+                    "name": "Power Up (Hard)"
                 },
                 {
-                    "name": "(Hard) Galaxies"
+                    "name": "Summer Supernova (Hard)"
                 },
                 {
-                    "name": "The Disappearance of Hatsune Miku"
+                    "name": "#include <signal.h>"
                 },
                 {
-                    "name": "(Hard) Philly Nice"
+                    "name": "Dad Battle (Hard)"
                 },
                 {
-                    "name": "(Hard) Daisuke"
+                    "name": "Daisuke (Hard)"
                 },
                 {
-                    "name": "(Hard) (Remix) This Will Be The Day"
+                    "name": "Don't Wanna (Hard)"
                 },
                 {
-                    "name": "(Hard) We Wish You A Merry Christmas"
+                    "name": "Drive Real Fast (On Fire) (Hard)"
                 },
                 {
-                    "name": "(Hard) Wizards In Winter"
+                    "name": "Epilogue (Hard)"
                 },
                 {
-                    "name": "(Hard) Overwatch Victory"
+                    "name": "Faerie (Hard)"
                 },
                 {
-                    "name": "(Hard) Ring of Fortune"
+                    "name": "Fly Wit Me (Hard)"
                 },
                 {
-                    "name": "(Hard) Burnt Rice"
+                    "name": "Guardians Of The Sun (Hard)"
                 },
                 {
-                    "name": "(Hard) Hitorigoto"
+                    "name": "Heat Wave (Hard)"
                 },
                 {
-                    "name": "(Hard) (Cover) This Will Be the Day"
+                    "name": "INSIDEOUT (Hard)"
                 },
                 {
-                    "name": "(Hard) Sand Planet"
+                    "name": "INTIMIDATE (Hard)"
                 },
                 {
-                    "name": "(Hard) Heat Wave"
+                    "name": "Kyouki Ranbu"
                 },
                 {
-                    "name": "(Hard) Kiss of Death"
+                    "name": "Learn The Language (Hard)"
                 },
                 {
-                    "name": "(Hard) Dad Battle"
+                    "name": "Nocturne Silence of the Night (Hard)"
                 },
                 {
-                    "name": "(Hard) Dorito Dust"
+                    "name": "Octane (Hard)"
                 },
                 {
-                    "name": "(Hard) Mei"
+                    "name": "Redruth (Hard)"
                 },
                 {
-                    "name": "(Hard) Insight"
+                    "name": "Two Sides (Hard)"
                 },
                 {
-                    "name": "(Hard) -Miami Hotline- Vol.3"
+                    "name": "Virtual (Hard)"
                 },
                 {
-                    "name": "(Hard) RUNNING IN THE 90'S"
+                    "name": "-Miami Hotline- Vol.3 (Hard)"
+                },
+                {
+                    "name": "Afterlife (Hard)"
+                },
+                {
+                    "name": "Aura (Hard)"
+                },
+                {
+                    "name": "Can't Stop Our Noise (Hard)"
+                },
+                {
+                    "name": "Challenger (Hard)"
+                },
+                {
+                    "name": "Dark Sheep"
+                },
+                {
+                    "name": "Doppelganger"
+                },
+                {
+                    "name": "Dorito Dust (Hard)"
                 },
                 {
                     "name": "Everything Will Freeze"
                 },
                 {
-                    "name": "(Hard) REANIMATE"
+                    "name": "Galactic Voyage (Hard)"
                 },
                 {
-                    "name": "(Hard) Magnolia"
+                    "name": "Happy Touch! (Hard)"
                 },
                 {
-                    "name": "(Hard) Korobeiniki"
+                    "name": "Hate The Most"
                 },
                 {
-                    "name": "(Hard) POP/STARS"
+                    "name": "Ievan Polkka (Hard)"
                 },
                 {
-                    "name": "(Hard) Ievan Polkka"
+                    "name": "Insane Inflame (Introduction) (Hard)"
                 },
                 {
-                    "name": "(Hard) SOUL EXPLOSION"
+                    "name": "Insight (Hard)"
                 },
                 {
-                    "name": "(Hard) Senbonzakura"
+                    "name": "LeaF Style Super Mashup EX"
                 },
                 {
-                    "name": "(Hard) Tires On Fire"
+                    "name": "M1LLI0N PP"
                 },
                 {
-                    "name": "(Hard) DDU-DU DDU-DU"
+                    "name": "Mei (Hard)"
                 },
                 {
-                    "name": "(VIP) Dark Sheep"
+                    "name": "Moneko (Hard)"
                 },
                 {
-                    "name": "(Hard) Love! Snow! Really Magic"
+                    "name": "Rice Expedition - Looking for the Voice of Dawn (Hard)"
                 },
                 {
-                    "name": "(Hard) (VIP) Robeats Remix Ten"
+                    "name": "RoBeats Remix Ten (Hard)"
                 },
                 {
-                    "name": "(Hard) Sakkijarven polkka"
+                    "name": "Sakkijarven polkka (Hard)"
                 },
                 {
-                    "name": "(Hard) Tell Your World"
+                    "name": "Senbonzakura (Kradness Cover) (Hard)"
                 },
                 {
-                    "name": "(Hard) The Friends We Made"
+                    "name": "SOUL EXPLOSION (Hard)"
                 },
                 {
-                    "name": "(Hard) A-E-I-U-E-O Ao!!"
+                    "name": "Summer time lover (Hard)"
                 },
                 {
-                    "name": "(Hard) Chronoxia"
+                    "name": "The Friends We Made (Hard)"
                 },
                 {
-                    "name": "(Hard) U.N. Owen was her?"
+                    "name": "Tires On Fire (Hard)"
                 },
                 {
-                    "name": "(Hard) Scatman"
+                    "name": "Wanna See A Light (Hard)"
                 },
                 {
-                    "name": "(Hard) (VIP) Marigold"
+                    "name": "We Could Get More Machinegun Psystyle (And More Genre Switches)"
                 },
                 {
-                    "name": "(Hard) U Got That"
+                    "name": "Worlds (Hard)"
                 },
                 {
-                    "name": "(Hard) PoPiPo"
+                    "name": "@_@ (Hard)"
                 },
                 {
-                    "name": "(VIP) SolarOrbit -Connected with the Espabrother-"
+                    "name": "Awaken (Hard)"
                 },
                 {
-                    "name": "(Hard) Reaction"
+                    "name": "Chronoxia (Hard)"
                 },
                 {
-                    "name": "(VIP) Soulless 5"
+                    "name": "Crazy Magic (Hard)"
                 },
                 {
-                    "name": "(Hard) Party in The U.S.A."
+                    "name": "Dreamless Wanderer (Hard)"
+                },
+                {
+                    "name": "Mope Mope (Hard)"
+                },
+                {
+                    "name": "Reaction (Hard)"
+                },
+                {
+                    "name": "Soulless 5"
+                },
+                {
+                    "name": "Spooky Time (Hard)"
+                },
+                {
+                    "name": "The Best of Cametek Mashup"
+                },
+                {
+                    "name": "The Memory of Summer (Hard)"
+                },
+                {
+                    "name": "This Future (we didn't expect) (Hard)"
+                },
+                {
+                    "name": "U Got That (Hard)"
+                },
+                {
+                    "name": "U.N. Owen was her? (Hard)"
                 }
             ]
         },
@@ -1542,129 +1461,274 @@
             "name": "26+",
             "songs": [
                 {
-                    "name": "(Hard) Brainiac Maniac"
+                    "name": "archive::zip (Hard)"
                 },
                 {
-                    "name": "(Hard) Cutie Cutie"
+                    "name": "Cutie Cutie (Hard)"
+                },
+                {
+                    "name": "Chroma Heavenly Mashup"
+                },
+                {
+                    "name": "Enigma (Hard)"
+                },
+                {
+                    "name": "Feel Your Heart (Hard)"
                 },
                 {
                     "name": "FREEDOM DiVE"
                 },
                 {
-                    "name": "(Hard) Guren No Yumiya"
+                    "name": "If (Hard)"
                 },
                 {
-                    "name": "(Hard) If"
+                    "name": "Insight (Nyctophobe Remix) (Hard)"
                 },
                 {
-                    "name": "(Hard) Insight"
+                    "name": "Joyride (Hard)"
                 },
                 {
-                    "name": "(Hard) My Boo"
+                    "name": "Machina (Hard)"
                 },
                 {
-                    "name": "(Hard) Night Of Knights"
+                    "name": "Night of Knights (Hard)"
                 },
                 {
-                    "name": "(Hard) Smile"
+                    "name": "Nana (Hard)"
                 },
                 {
-                    "name": "(Hard) The Battle For Everyone's Souls"
+                    "name": "Smile (Hard)"
                 },
                 {
-                    "name": "(Hard) Unravel"
+                    "name": "Sprite (Hard)"
                 },
                 {
-                    "name": "(Hard) Zen Zen Zense"
+                    "name": "The Falling Mysts (Hard)"
                 },
                 {
-                    "name": "(Hard) Artificial Intelligence Bomb"
+                    "name": "Unshakable (Hard)"
                 },
                 {
-                    "name": "(Hard) Black "
+                    "name": "The Best of Creo Vol. 1 (Hard)"
                 },
                 {
-                    "name": "(Hard) CroiX"
+                    "name": "Artificial Intelligence Bomb (Hard)"
                 },
                 {
-                    "name": "(Hard) DIAVOLO "
+                    "name": "Crab Rave (Camellia Remix) (VIP) (Hard)"
                 },
                 {
-                    "name": "(Hard) Flight of the Bumblebee"
+                    "name": "croiX (Hard)"
                 },
                 {
-                    "name": "(Hard) Sandstorm"
+                    "name": "crystallized (Hard)"
                 },
                 {
-                    "name": "(Hard) SCATMAN -SCATMAN TETO-"
+                    "name": "DIAVOLO (Hard)"
                 },
                 {
-                    "name": "(Hard) Through the Fire and Flames (FamilyJules Cover)"
+                    "name": "Don't Stop the Rave (Hard)"
                 },
                 {
-                    "name": "(Hard) Caliburne ~ Story of the Legendary sword ~"
+                    "name": "Dreaming of flying in the night sky (Hard)"
                 },
                 {
-                    "name": "(Hard) Space Battle"
+                    "name": "Exit This Earth's Atomosphere (Hard)"
                 },
                 {
-                    "name": "(Hard) (VIP) Space Battle"
+                    "name": "Light It Up (Hard)"
                 },
                 {
-                    "name": "(Hard) The Disappearance of Hatsune Miku"
+                    "name": "Looking for Edge of Ground (Hard)"
                 },
                 {
-                    "name": "(Hard) Report 4: New World"
+                    "name": "Monster (Hard)"
                 },
                 {
-                    "name": "(Hard) Dyscontrolled Galaxy"
+                    "name": "Nasty Nasty Spell (Hard)"
                 },
                 {
-                    "name": "(Hard) Fury of the Storm"
+                    "name": "Neurotoxicity (Hard)"
                 },
                 {
-                    "name": "(Hard) (VIP) LEMON SUMMER"
+                    "name": "Ready For The Madness (Hard)"
                 },
                 {
-                    "name": "(Hard) Staring at star"
+                    "name": "Take The Long Way Home (Hard)"
                 },
                 {
-                    "name": "(Hard) Everything Will Freeze"
+                    "name": "Alice in misanthrope (Hard)"
                 },
                 {
-                    "name": "(Hard) FREEDOM DiVE"
+                    "name": "Buzztone Symphony (Hard)"
                 },
                 {
-                    "name": "(Hard) Angelic Jelly"
+                    "name": "Caliburne ~ Story of the Legendary sword ~ (Hard)"
                 },
                 {
-                    "name": "(Hard) Goodbye"
+                    "name": "Duality (Hard)"
                 },
                 {
-                    "name": "(Hard) (VIP) RE:Beats! Robeats Mashup Marathon"
+                    "name": "Farewell, My Friend (Hard)"
                 },
                 {
-                    "name": "(Hard) (VIP) SolarOrbit -Connected with the Espabrother-"
+                    "name": "Newspapers for Magicians (Hard)"
                 },
                 {
-                    "name": "(Hard) A Lasting Promise"
+                    "name": "Now I Do (Hard)"
                 },
                 {
-                    "name": "(Hard) Galaxy Collapse"
+                    "name": "Operation: Evolution (Hard)"
                 },
                 {
-                    "name": "(Hard) (VIP) FREEDOM DiVE"
+                    "name": "Riran Hardstyle Mashup (Hard)"
                 },
                 {
-                    "name": "(Hard) (VIP) Bad Apple"
+                    "name": "Small Theft Auto (Hard)"
                 },
                 {
-                    "name": "(Hard) (VIP) Dark Sheep"
+                    "name": "Space Battle (Hard)"
                 },
                 {
-                    "name": "(Hard) (VIP) Soulless 5"
+                    "name": "Space Battle (D5Wolf Remix) (Hard)"
+                },
+                {
+                    "name": "Surface (Hard)"
+                },
+                {
+                    "name": "Summer Met With a Meteor Shower (Hard)"
+                },
+                {
+                    "name": "At the Speed of Light (Hard)"
+                },
+                {
+                    "name": "Be My Time Machine (Hard)"
+                },
+                {
+                    "name": "Dyscontrolled Galaxy (Hard)"
+                },
+                {
+                    "name": "Exit This Earth's Atomosphere (Camellia's 'Planetary//200step' Remix)"
+                },
+                {
+                    "name": "Hate The Most (Hard)"
+                },
+                {
+                    "name": "LEMON SUMMER (Hard)"
+                },
+                {
+                    "name": "Lyrith (Hard)"
+                },
+                {
+                    "name": "Report 4: New World (Hard)"
+                },
+                {
+                    "name": "Staring at star (Hard)"
+                },
+                {
+                    "name": "Will There Really Be A Morning (Hard)"
+                },
+                {
+                    "name": "Chronostasis (Hard)"
+                },
+                {
+                    "name": "Evanescent (Hard)"
+                },
+                {
+                    "name": "Everything Will Freeze (Hard)"
+                },
+                {
+                    "name": "FREEDOM DiVE (Hard)"
+                },
+                {
+                    "name": "Hold Me, Magic (Hard)"
+                },
+                {
+                    "name": "#include <signal.h> (Hard)"
+                },
+                {
+                    "name": "Kyouki Ranbu (Hard)"
+                },
+                {
+                    "name": "Lovely my prince (Hard)"
+                },
+                {
+                    "name": "M1LLI0N PP (Hard)"
+                },
+                {
+                    "name": "On Channel 13: The tv room Mashup (Hard)"
+                },
+                {
+                    "name": "PLANET//SHAPER (Hard)"
+                },
+                {
+                    "name": "Poison AND%OR Affection (Hard)"
+                },
+                {
+                    "name": "Supernova (Hard)"
+                },
+                {
+                    "name": "Angelic Jelly (Hard)"
+                },
+                {
+                    "name": "Astar (Hard)"
+                },
+                {
+                    "name": "Goodbye (Hard)"
+                },
+                {
+                    "name": "Marenol (Hard)"
+                },
+                {
+                    "name": "RE:Beats! RoBeats Mashup Marathon (Hard)"
+                },
+                {
+                    "name": "A Lasting Promise (Hard)"
+                },
+                {
+                    "name": "Devil's Palm (Hard)"
+                },
+                {
+                    "name": "Doppelganger (Hard)"
+                },
+                {
+                    "name": "FREEDOM DiVE (cosMo@BousouP's METAL DIMENSIONS REMIX) (Hard)"
+                },
+                {
+                    "name": "Galaxy Collapse (Hard)"
+                },
+                {
+                    "name": "GHOST (Hard)"
+                },
+                {
+                    "name": "We Could Get More Machinegun Psystyle (And More Genre Switches) (Hard)"
+                },
+                {
+                    "name": "Bad Apple (Hard)"
+                },
+                {
+                    "name": "BPM = RT (Hard)"
+                },
+                {
+                    "name": "Chroma Heavenly Mashup (Hard)"
+                },
+                {
+                    "name": "Dark Sheep (Hard)"
+                },
+                {
+                    "name": "Soulless 5 (Hard)"
+                },
+                {
+                    "name": "The Best of Cametek Mashup (Hard)"
+                },
+                {
+                    "name": "Exit This Earth's Atomosphere (Camellia's 'Planetary//200step' Remix) (Hard)"
+                },
+                {
+                    "name": "LeaF Style Super Mashup EX (Hard)"
                 }
             ]
         }
     ]
 }
+                
