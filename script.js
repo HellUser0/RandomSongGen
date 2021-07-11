@@ -15,7 +15,7 @@ function stateReset(apply = true) {
         selectedSong: null,
         sortSongs: 'availability',
         openSongList: false,
-        enableStageClearPreviousSongs: false
+        enableStageClearPreviousSongs: true
     };
     if (apply) {
         state = rstState;
