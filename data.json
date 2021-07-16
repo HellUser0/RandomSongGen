@@ -3,7 +3,8 @@
     "diffs": [
         {
             "name": "1-10",
-            "songs": [{
+            "songs": [
+                {
                     "name": "@_@"
                 },
                 {
@@ -100,7 +101,7 @@
                     "name": "Serenity"
                 },
                 {
-                    "name": "This Future"
+                    "name": "This Future (we didn't expect)"
                 },
                 {
                     "name": "Together forever, my lovely lovely video game cartridges"
@@ -127,9 +128,6 @@
                     "name": "Happy! Lucky! La Kirari"
                 },
                 {
-                    "name": "Microwave Popcorn"
-                },
-                {
                     "name": "Polargeist"
                 },
                 {
@@ -154,7 +152,7 @@
                     "name": "Let's Roll"
                 },
                 {
-                    "name": "Rat's Birthday Mixtape"
+                    "name": "Rat's Birthday Mixtape [VIP]"
                 },
                 {
                     "name": "Rivals"
@@ -178,16 +176,10 @@
                     "name": "Guardians Of The Sun"
                 },
                 {
-                    "name": "Hej Monika"
-                },
-                {
                     "name": "I Can't"
                 },
                 {
                     "name": "Like You"
-                },
-                {
-                    "name": "macaron moon"
                 },
                 {
                     "name": "Moneko"
@@ -227,9 +219,6 @@
                 },
                 {
                     "name": "Galaxy"
-                },
-                {
-                    "name": "Great Moves! Keep It Up!"
                 },
                 {
                     "name": "Making Dew"
@@ -301,6 +290,9 @@
                     "name": "Philly Nice"
                 },
                 {
+                    "name": "Play It Cool"
+                },
+                {
                     "name": "Revenger"
                 },
                 {
@@ -337,9 +329,6 @@
                     "name": "Crystallize"
                 },
                 {
-                    "name": "Daisuke"
-                },
-                {
                     "name": "Duality"
                 },
                 {
@@ -347,6 +336,9 @@
                 },
                 {
                     "name": "Enigma"
+                },
+                {
+                    "name": "Rutra"
                 },
                 {
                     "name": "Guardian"
@@ -359,9 +351,6 @@
                 },
                 {
                     "name": "Machina"
-                },
-                {
-                    "name": "Mei"
                 },
                 {
                     "name": "PLAY"
@@ -431,7 +420,7 @@
                 }
             ]
         },
-        {
+        {  
             "name": "11-15",
             "songs": [
                 {
@@ -474,7 +463,7 @@
                     "name": "Surface"
                 },
                 {
-                    "name": "Can't Stop Our Noise"
+                    "name": "Can't Stop Our Noise [VIP]"
                 },
                 {
                     "name": "dogjam"
@@ -534,6 +523,9 @@
                     "name": "INSIDEOUT"
                 },
                 {
+                    "name": "Inspire"
+                },
+                {
                     "name": "Neon (Hard)"
                 },
                 {
@@ -553,6 +545,9 @@
                 },
                 {
                     "name": "Stadium Rave"
+                },
+                {
+                    "name": "Subsonic Blast"
                 },
                 {
                     "name": "Terrorize"
@@ -582,6 +577,9 @@
                     "name": "Gateway"
                 },
                 {
+                    "name": "Insight (Rutra Remix)"
+                },
+                {
                     "name": "Learn The Language"
                 },
                 {
@@ -595,9 +593,6 @@
                 },
                 {
                     "name": "Polargeist (Hard)"
-                },
-                {
-                    "name": "Reincarnation"
                 },
                 {
                     "name": "Robot Midlife Crisis (Hard)"
@@ -621,7 +616,7 @@
                     "name": "archive::zip"
                 },
                 {
-                    "name": "Are We Still Young(Hard)"
+                    "name": "Are We Still Young"
                 },
                 {
                     "name": "Baby I Don't Care (Hard)"
@@ -657,22 +652,13 @@
                     "name": "Gold (Hard)"
                 },
                 {
-                    "name": "Great Moves! Keep It Up! (Hard)"
-                },
-                {
                     "name": "Heat Wave"
-                },
-                {
-                    "name": "Hej Monika (Hard)"
                 },
                 {
                     "name": "Hue Shift (Hard)"
                 },
                 {
                     "name": "INTIMIDATE"
-                },
-                {
-                    "name": "Ievan Polkka"
                 },
                 {
                     "name": "Joyride"
@@ -713,7 +699,7 @@
                     "name": "Challenger"
                 },
                 {
-                    "name": "Crab Rave (Camellia Remix)"
+                    "name": "Crab Rave (Camellia Remix) (VIP)"
                 },
                 {
                     "name": "Crazy Magic"
@@ -746,16 +732,10 @@
                     "name": "Kanjou Chemistry (Hard)"
                 },
                 {
-                    "name": "macaron moon (Hard)"
-                },
-                {
                     "name": "Night of Knights"
                 },
                 {
                     "name": "Place On Fire (Hard)"
-                },
-                {
-                    "name": "Sakkijarven polkka"
                 },
                 {
                     "name": "Serenity (Hard)"
@@ -794,25 +774,16 @@
                     "name": "Endless Tower (Hard)"
                 },
                 {
-                    "name": "Future Candy (Hard)"
-                },
-                {
                     "name": "Gateway (Hard)"
                 },
                 {
                     "name": "Happy! Lucky! La Kirari (Hard)"
                 },
                 {
-                    "name": "If"
-                },
-                {
                     "name": "Journey Through The Caves (Hard)"
                 },
                 {
                     "name": "Jungle (Hard)"
-                },
-                {
-                    "name": "Microwave Popcorn (Hard)"
                 },
                 {
                     "name": "Momentum"
@@ -854,7 +825,7 @@
                     "name": "Summer Met With a Meteor Shower"
                 },
                 {
-                    "name": "The Best of Creo Vol.1"
+                    "name": "The Best of Creo Vol.1 [VIP]"
                 },
                 {
                     "name": "Together forever, my lovely lovely video game cartridges (Hard)"
@@ -893,7 +864,7 @@
                     "name": "Clouds in the Blue (Hard)"
                 },
                 {
-                    "name": "Decoy World VIP (Hard)"
+                    "name": "Decoy World VIP"
                 },
                 {
                     "name": "Don't Stop the Rave"
@@ -903,6 +874,12 @@
                 },
                 {
                     "name": "Insight"
+                },
+                {
+                    "name": "Insight (Flynt Remix)"
+                },
+                {
+                    "name": "Insight (terceSSSS Remix)"
                 },
                 {
                     "name": "Let's Talk (Hard)"
@@ -932,13 +909,16 @@
                     "name": "Pico (Hard)"
                 },
                 {
+                    "name": "Play It Cool"
+                },
+                {
                     "name": "Realms (Hard)"
                 },
                 {
                     "name": "Ready For The Madness"
                 },
                 {
-                    "name": "RoBeats Remix Ten"
+                    "name": "RoBeats Remix Ten [VIP]"
                 },
                 {
                     "name": "Roblox Anthem (\"Here We Go\") (Hard)"
@@ -974,10 +954,10 @@
                     "name": "ATHAZA (Hard)"
                 },
                 {
-                    "name": "Bad Apple"
+                    "name": "Bad Apple [VIP]"
                 },
                 {
-                    "name": "Blush (Hard)"
+                    "name": "Blush"
                 },
                 {
                     "name": "BPM = RT"
@@ -1005,6 +985,12 @@
                 },
                 {
                     "name": "Galaxy (Hard)"
+                },
+                {
+                    "name": "Insight (Egg Yolk Remix)"
+                },
+                {
+                    "name": "Insight (Rutra Remix) (Hard)"
                 },
                 {
                     "name": "Moonlight (Hard)"
@@ -1046,7 +1032,7 @@
                     "name": "The Long Drive (Hard)"
                 },
                 {
-                    "name": "The Memory of Summer"
+                    "name": "The Memory of Summer [VIP]"
                 },
                 {
                     "name": "The Vocab Quiz (Hard)"
@@ -1115,13 +1101,10 @@
                     "name": "Red Haze (Hard)"
                 },
                 {
-                    "name": "Reincarnation (Hard)"
-                },
-                {
                     "name": "Revenger (Hard)"
                 },
                 {
-                    "name": "Riran Hardstyle Mashup"
+                    "name": "Riran Hardstyle Mashup [VIP]"
                 },
                 {
                     "name": "Rivals (Hard)"
@@ -1143,7 +1126,7 @@
                 }
             ]
         },
-        {
+        { 
             "name": "21-25",
             "songs": [
                 {
@@ -1156,7 +1139,7 @@
                     "name": "Devil's Palm"
                 },
                 {
-                    "name": "Drifters (Hard)"
+                    "name": "Drifters"
                 },
                 {
                     "name": "Euphoria (Hard)"
@@ -1171,7 +1154,7 @@
                     "name": "Feeling Alright (Hard)"
                 },
                 {
-                    "name": "Forward (Hard)"
+                    "name": "Forward"
                 },
                 {
                     "name": "Get Stickbugged LOL! (Hard)"
@@ -1180,13 +1163,16 @@
                     "name": "Goodbye"
                 },
                 {
+                    "name": "Insight (ZirconEscalus 8-Bit Remix)"
+                },
+                {
                     "name": "LEMON SUMMER"
                 },
                 {
                     "name": "Let's Roll (Hard)"
                 },
                 {
-                    "name": "On Channel 13: The tv room Mashup"
+                    "name": "On Channel 13: The tv room Mashup [VIP]"
                 },
                 {
                     "name": "P8107 (Hard)"
@@ -1195,10 +1181,10 @@
                     "name": "PLAY (Hard)"
                 },
                 {
-                    "name": "Rat's Birthday Mixtape (Hard)"
+                    "name": "Rat's Birthday Mixtape [VIP] (Hard)"
                 },
                 {
-                    "name": "RE:Beats! RoBeats Mashup Marathon"
+                    "name": "RE:Beats! RoBeats Mashup Marathon [VIP]"
                 },
                 {
                     "name": "Space Battle (D5Wolf Remix)"
@@ -1231,7 +1217,10 @@
                     "name": "Dune (Hard)"
                 },
                 {
-                    "name": "FREEDOM DiVE (cosMo@BousouP's METAL DIMENSIONS REMIX)"
+                    "name": "Fire (Hard)"
+                },
+                {
+                    "name": "FREEDOM DiVE (cosMo@BousouP's METAL DIMENSIONS REMIX) [VIP]"
                 },
                 {
                     "name": "GHOST"
@@ -1241,6 +1230,12 @@
                 },
                 {
                     "name": "Galaxy Collapse"
+                },
+                {
+                    "name": "Insight (1NS1GHTFUL Remix)"
+                },
+                {
+                    "name": "Insight (iiJohn0's Speedcore Remix)"
                 },
                 {
                     "name": "Jump, Goober, Jump!! (Hard)"
@@ -1273,9 +1268,6 @@
                     "name": "Dad Battle (Hard)"
                 },
                 {
-                    "name": "Daisuke (Hard)"
-                },
-                {
                     "name": "Don't Wanna (Hard)"
                 },
                 {
@@ -1298,6 +1290,9 @@
                 },
                 {
                     "name": "INSIDEOUT (Hard)"
+                },
+                {
+                    "name": "Inspire (Hard)"
                 },
                 {
                     "name": "INTIMIDATE (Hard)"
@@ -1333,13 +1328,13 @@
                     "name": "Aura (Hard)"
                 },
                 {
-                    "name": "Can't Stop Our Noise (Hard)"
+                    "name": "Can't Stop Our Noise [VIP] (Hard)"
                 },
                 {
                     "name": "Challenger (Hard)"
                 },
                 {
-                    "name": "Dark Sheep"
+                    "name": "Dark Sheep [VIP]"
                 },
                 {
                     "name": "Doppelganger"
@@ -1360,22 +1355,16 @@
                     "name": "Hate The Most"
                 },
                 {
-                    "name": "Ievan Polkka (Hard)"
-                },
-                {
                     "name": "Insane Inflame (Introduction) (Hard)"
                 },
                 {
                     "name": "Insight (Hard)"
                 },
                 {
-                    "name": "LeaF Style Super Mashup EX"
+                    "name": "LeaF Style Super Mashup EX [VIP]"
                 },
                 {
                     "name": "M1LLI0N PP"
-                },
-                {
-                    "name": "Mei (Hard)"
                 },
                 {
                     "name": "Moneko (Hard)"
@@ -1384,13 +1373,10 @@
                     "name": "Rice Expedition - Looking for the Voice of Dawn (Hard)"
                 },
                 {
-                    "name": "RoBeats Remix Ten (Hard)"
+                    "name": "RoBeats Remix Ten [VIP] (Hard)"
                 },
                 {
-                    "name": "Sakkijarven polkka (Hard)"
-                },
-                {
-                    "name": "Senbonzakura (Kradness Cover) (Hard)"
+                    "name": "Senbonzakura (Hard)"
                 },
                 {
                     "name": "SOUL EXPLOSION (Hard)"
@@ -1429,22 +1415,28 @@
                     "name": "Dreamless Wanderer (Hard)"
                 },
                 {
+                    "name": "Insight (Egg Yolk Remix) (Hard)"
+                },
+                {
                     "name": "Mope Mope (Hard)"
                 },
                 {
                     "name": "Reaction (Hard)"
                 },
                 {
-                    "name": "Soulless 5"
+                    "name": "Soulless 5 (HalfDuck Cover) [VIP]"
                 },
                 {
                     "name": "Spooky Time (Hard)"
                 },
                 {
-                    "name": "The Best of Cametek Mashup"
+                    "name": "Subsonic Blast (Hard)"
                 },
                 {
-                    "name": "The Memory of Summer (Hard)"
+                    "name": "The Best of Cametek Mashup [VIP]"
+                },
+                {
+                    "name": "The Memory of Summer [VIP] (Hard)"
                 },
                 {
                     "name": "This Future (we didn't expect) (Hard)"
@@ -1457,7 +1449,7 @@
                 }
             ]
         },
-        {
+        {  
             "name": "26+",
             "songs": [
                 {
@@ -1467,7 +1459,7 @@
                     "name": "Cutie Cutie (Hard)"
                 },
                 {
-                    "name": "Chroma Heavenly Mashup"
+                    "name": "Chroma Heavenly Mashup [VIP]"
                 },
                 {
                     "name": "Enigma (Hard)"
@@ -1477,9 +1469,6 @@
                 },
                 {
                     "name": "FREEDOM DiVE"
-                },
-                {
-                    "name": "If (Hard)"
                 },
                 {
                     "name": "Insight (Nyctophobe Remix) (Hard)"
@@ -1509,7 +1498,7 @@
                     "name": "Unshakable (Hard)"
                 },
                 {
-                    "name": "The Best of Creo Vol. 1 (Hard)"
+                    "name": "The Best of Creo Vol. 1 [VIP] (Hard)"
                 },
                 {
                     "name": "Artificial Intelligence Bomb (Hard)"
@@ -1530,10 +1519,19 @@
                     "name": "Don't Stop the Rave (Hard)"
                 },
                 {
-                    "name": "Dreaming of flying in the night sky (Hard)"
+                    "name": "Dreaming of flying in the night sky"
                 },
                 {
                     "name": "Exit This Earth's Atomosphere (Hard)"
+                },
+                {
+                    "name": "Insight (Flynt Remix) (Hard)"
+                },
+                {
+                    "name": "Insight (terceSSSS Remix) (Hard)"
+                },
+                {
+                    "name": "Insight (ZirconEscalua 8-Bit Remix) (Hard)"
                 },
                 {
                     "name": "Light It Up (Hard)"
@@ -1581,7 +1579,7 @@
                     "name": "Operation: Evolution (Hard)"
                 },
                 {
-                    "name": "Riran Hardstyle Mashup (Hard)"
+                    "name": "Riran Hardstyle Mashup [VIP] (Hard)"
                 },
                 {
                     "name": "Small Theft Auto (Hard)"
@@ -1608,7 +1606,7 @@
                     "name": "Dyscontrolled Galaxy (Hard)"
                 },
                 {
-                    "name": "Exit This Earth's Atomosphere (Camellia's 'Planetary//200step' Remix)"
+                    "name": "Exit This Earth's Atomosphere (Camellia's 'Planetary//200step' Remix) [VIP]"
                 },
                 {
                     "name": "Hate The Most (Hard)"
@@ -1627,6 +1625,9 @@
                 },
                 {
                     "name": "Will There Really Be A Morning (Hard)"
+                },
+                {
+                    "name": "Omega(x2)Parts [VIP]"
                 },
                 {
                     "name": "Chronostasis (Hard)"
@@ -1656,7 +1657,7 @@
                     "name": "M1LLI0N PP (Hard)"
                 },
                 {
-                    "name": "On Channel 13: The tv room Mashup (Hard)"
+                    "name": "On Channel 13: The tv room Mashup [VIP] (Hard)"
                 },
                 {
                     "name": "PLANET//SHAPER (Hard)"
@@ -1677,10 +1678,16 @@
                     "name": "Goodbye (Hard)"
                 },
                 {
+                    "name": "Insight (1NS1GHTFUL Remix) (Hard)"
+                },
+                {
+                    "name": "Insight (iiJohn0's Speedcore Remix) (Hard)"
+                },
+                {
                     "name": "Marenol (Hard)"
                 },
                 {
-                    "name": "RE:Beats! RoBeats Mashup Marathon (Hard)"
+                    "name": "RE:Beats! RoBeats Mashup Marathon [VIP] (Hard)"
                 },
                 {
                     "name": "A Lasting Promise (Hard)"
@@ -1692,7 +1699,7 @@
                     "name": "Doppelganger (Hard)"
                 },
                 {
-                    "name": "FREEDOM DiVE (cosMo@BousouP's METAL DIMENSIONS REMIX) (Hard)"
+                    "name": "FREEDOM DiVE (cosMo@BousouP's METAL DIMENSIONS REMIX) [VIP] (Hard)"
                 },
                 {
                     "name": "Galaxy Collapse (Hard)"
@@ -1704,31 +1711,33 @@
                     "name": "We Could Get More Machinegun Psystyle (And More Genre Switches) (Hard)"
                 },
                 {
-                    "name": "Bad Apple (Hard)"
+                    "name": "Bad Apple [VIP] (Hard)"
                 },
                 {
                     "name": "BPM = RT (Hard)"
                 },
                 {
-                    "name": "Chroma Heavenly Mashup (Hard)"
+                    "name": "Chroma Heavenly Mashup [VIP] (Hard)"
                 },
                 {
-                    "name": "Dark Sheep (Hard)"
+                    "name": "Dark Sheep [VIP] (Hard)"
                 },
                 {
-                    "name": "Soulless 5 (Hard)"
+                    "name": "Soulless 5 (HalfDuck Cover) [VIP] (Hard)"
                 },
                 {
-                    "name": "The Best of Cametek Mashup (Hard)"
+                    "name": "The Best of Cametek Mashup [VIP] (Hard)"
                 },
                 {
-                    "name": "Exit This Earth's Atomosphere (Camellia's 'Planetary//200step' Remix) (Hard)"
+                    "name": "Exit This Earth's Atomosphere (Camellia's 'Planetary//200step' Remix) [VIP] (Hard)"
                 },
                 {
-                    "name": "LeaF Style Super Mashup EX (Hard)"
+                    "name": "LeaF Style Super Mashup EX [VIP] (Hard)"
+                },
+                {
+                    "name": "Omega(x2)Parts [VIP] (Hard)"
                 }
             ]
         }
     ]
-}
-                
+}             
